@@ -1,0 +1,965 @@
+{
+  "schema_version": 1,
+  "acquired_date": "2026-11-02",
+  "files": [
+    {
+      "path": "raw/binance/AMBBTC/AMBBTC-5m-2018-12-29.zip",
+      "url": "https://data.binance.vision/data/spot/daily/klines/AMBBTC/5m/AMBBTC-5m-2018-12-29.zip",
+      "bytes": 7208,
+      "sha256": "bbc12df9c63ddd004f59596c17abdd198e3a9c9d3a877ec06f755bf1ec32de8e",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/AMBBTC/AMBBTC-5m-2018-12-29.zip.CHECKSUM",
+      "url": "https://data.binance.vision/data/spot/daily/klines/AMBBTC/5m/AMBBTC-5m-2018-12-29.zip.CHECKSUM",
+      "bytes": 90,
+      "sha256": "793c94b99e6f11ab9b4d04dc7a1e5d9bd97ed78f077624623e17f3983e00ec8e",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/AMBBTC/AMBBTC-5m-2018-12-30.zip",
+      "url": "https://data.binance.vision/data/spot/daily/klines/AMBBTC/5m/AMBBTC-5m-2018-12-30.zip",
+      "bytes": 7776,
+      "sha256": "b107419d8a57170ecd96e0689e6e38ab4fd1a43374b51b439a5a4f3b0c917881",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/AMBBTC/AMBBTC-5m-2018-12-30.zip.CHECKSUM",
+      "url": "https://data.binance.vision/data/spot/daily/klines/AMBBTC/5m/AMBBTC-5m-2018-12-30.zip.CHECKSUM",
+      "bytes": 90,
+      "sha256": "e78590b46f3c7f71e166602ba5795ac71dc9a73bced4785b2127ef9f037c2c57",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/AMBBTC/AMBBTC-5m-2018-12-31.zip",
+      "url": "https://data.binance.vision/data/spot/daily/klines/AMBBTC/5m/AMBBTC-5m-2018-12-31.zip",
+      "bytes": 8538,
+      "sha256": "ee0603e0300f326445a8699c72ce37d67c9aaff8eaba7d0f82c11de6426f1b81",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/AMBBTC/AMBBTC-5m-2018-12-31.zip.CHECKSUM",
+      "url": "https://data.binance.vision/data/spot/daily/klines/AMBBTC/5m/AMBBTC-5m-2018-12-31.zip.CHECKSUM",
+      "bytes": 90,
+      "sha256": "dfa452c2738483889d0b77d1de3db91f18eb6e95f9b32f18bdc58d2858fa222a",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/AMBBTC/AMBBTC-5m-2019-01-01.zip",
+      "url": "https://data.binance.vision/data/spot/daily/klines/AMBBTC/5m/AMBBTC-5m-2019-01-01.zip",
+      "bytes": 9244,
+      "sha256": "9bc07e4d40e0bf9eed6a87bbf391f3fa6c80edce8dc05703f6793d6f07902ded",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/AMBBTC/AMBBTC-5m-2019-01-01.zip.CHECKSUM",
+      "url": "https://data.binance.vision/data/spot/daily/klines/AMBBTC/5m/AMBBTC-5m-2019-01-01.zip.CHECKSUM",
+      "bytes": 90,
+      "sha256": "c88f1725513274172ee75fcb901a8e4eba5bc0a02779418f507c93a5bb40cb4d",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/AMBBTC/AMBBTC-5m-2019-01-02.zip",
+      "url": "https://data.binance.vision/data/spot/daily/klines/AMBBTC/5m/AMBBTC-5m-2019-01-02.zip",
+      "bytes": 9617,
+      "sha256": "d021f3127fa86a9007a2fd586a711b36667fbbbd92cb3b4e07420bb5f0b5e75e",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/AMBBTC/AMBBTC-5m-2019-01-02.zip.CHECKSUM",
+      "url": "https://data.binance.vision/data/spot/daily/klines/AMBBTC/5m/AMBBTC-5m-2019-01-02.zip.CHECKSUM",
+      "bytes": 90,
+      "sha256": "4f2a7ee4f30a82aeca93d1ecfbf563de19113d07c344a0ec0cb107a71864ed7e",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/BRDBTC/BRDBTC-5m-2018-12-27.zip",
+      "url": "https://data.binance.vision/data/spot/daily/klines/BRDBTC/5m/BRDBTC-5m-2018-12-27.zip",
+      "bytes": 4827,
+      "sha256": "eb3d45a67993f4b25b6afe1a1d667baabbfa0529ab75ef22d5dbd7c123f9648b",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/BRDBTC/BRDBTC-5m-2018-12-27.zip.CHECKSUM",
+      "url": "https://data.binance.vision/data/spot/daily/klines/BRDBTC/5m/BRDBTC-5m-2018-12-27.zip.CHECKSUM",
+      "bytes": 90,
+      "sha256": "4540a91593cf29e628d4d3a8c1f12ce3b5e33132a80d296c2f329e40b01d1e80",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/BRDBTC/BRDBTC-5m-2018-12-28.zip",
+      "url": "https://data.binance.vision/data/spot/daily/klines/BRDBTC/5m/BRDBTC-5m-2018-12-28.zip",
+      "bytes": 6053,
+      "sha256": "d1cfea3fe15315dfc424b39f3b5c1af8d8ee6106fafaf984de29136c5d66ea2a",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/BRDBTC/BRDBTC-5m-2018-12-28.zip.CHECKSUM",
+      "url": "https://data.binance.vision/data/spot/daily/klines/BRDBTC/5m/BRDBTC-5m-2018-12-28.zip.CHECKSUM",
+      "bytes": 90,
+      "sha256": "c4ad44b180338bcffa657876f005ab393a7fd172c0c77fc93014a2abb8b6256a",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/BRDBTC/BRDBTC-5m-2018-12-29.zip",
+      "url": "https://data.binance.vision/data/spot/daily/klines/BRDBTC/5m/BRDBTC-5m-2018-12-29.zip",
+      "bytes": 5197,
+      "sha256": "b5c4a54e097166e15e1f862a4ce52774653eca5745db7cb5d26de6013aa6e607",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/BRDBTC/BRDBTC-5m-2018-12-29.zip.CHECKSUM",
+      "url": "https://data.binance.vision/data/spot/daily/klines/BRDBTC/5m/BRDBTC-5m-2018-12-29.zip.CHECKSUM",
+      "bytes": 90,
+      "sha256": "9d7313299598a6e92279a6cb8bcc3458e91f4139653c2415a08f29e84d61b335",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/BRDBTC/BRDBTC-5m-2018-12-30.zip",
+      "url": "https://data.binance.vision/data/spot/daily/klines/BRDBTC/5m/BRDBTC-5m-2018-12-30.zip",
+      "bytes": 8019,
+      "sha256": "7b0fa912d88d0e95a46a3f057233f7cd1b13fcb0dc673b52032ad86d9cf4ed41",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/BRDBTC/BRDBTC-5m-2018-12-30.zip.CHECKSUM",
+      "url": "https://data.binance.vision/data/spot/daily/klines/BRDBTC/5m/BRDBTC-5m-2018-12-30.zip.CHECKSUM",
+      "bytes": 90,
+      "sha256": "1aa8739c14b59ff6c78d379462840bcebd10cd6372ae3030dd71b1b0f381ab63",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/BRDBTC/BRDBTC-5m-2018-12-31.zip",
+      "url": "https://data.binance.vision/data/spot/daily/klines/BRDBTC/5m/BRDBTC-5m-2018-12-31.zip",
+      "bytes": 7113,
+      "sha256": "39a5fee609c8021ab6d752e2e34a0b10da36fd3bc4e9662fc3eadbb9f1d532e1",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/BRDBTC/BRDBTC-5m-2018-12-31.zip.CHECKSUM",
+      "url": "https://data.binance.vision/data/spot/daily/klines/BRDBTC/5m/BRDBTC-5m-2018-12-31.zip.CHECKSUM",
+      "bytes": 90,
+      "sha256": "5f9b0d11e136270b034bed1af9b88d63eec80b4a870c743c2fa3d56e75350bf4",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/BTCUSDT/BTCUSDT-5m-2026-10-29.zip",
+      "url": "https://data.binance.vision/data/spot/daily/klines/BTCUSDT/5m/BTCUSDT-5m-2026-10-29.zip",
+      "bytes": 15710,
+      "sha256": "e59e17c45296a57cc5c6a1ebc05a737e878f3be3d271b89281e90d4d8a1eca4b",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/BTCUSDT/BTCUSDT-5m-2026-10-29.zip.CHECKSUM",
+      "url": "https://data.binance.vision/data/spot/daily/klines/BTCUSDT/5m/BTCUSDT-5m-2026-10-29.zip.CHECKSUM",
+      "bytes": 91,
+      "sha256": "fe0ca30b35914a89da94e83af4c6596bc3ae8b833d8acf881edc31a83c711574",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/BTCUSDT/BTCUSDT-5m-2026-10-30.zip",
+      "url": "https://data.binance.vision/data/spot/daily/klines/BTCUSDT/5m/BTCUSDT-5m-2026-10-30.zip",
+      "bytes": 15793,
+      "sha256": "f855a8fc03f949e3b1340c65afe2a62766638101ec22ae6f93c5dbf89d51e9d9",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/BTCUSDT/BTCUSDT-5m-2026-10-30.zip.CHECKSUM",
+      "url": "https://data.binance.vision/data/spot/daily/klines/BTCUSDT/5m/BTCUSDT-5m-2026-10-30.zip.CHECKSUM",
+      "bytes": 91,
+      "sha256": "da3327c02d65289a2d9b3a580deb30ac18b18e42672da53197e7532ebba6c4bc",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/BTCUSDT/BTCUSDT-5m-2026-10-31.zip",
+      "url": "https://data.binance.vision/data/spot/daily/klines/BTCUSDT/5m/BTCUSDT-5m-2026-10-31.zip",
+      "bytes": 14811,
+      "sha256": "a7ea8b46ee9b977626a8f8e7db3cf2c1343c5ca83c2397168f0ca630af569eb1",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/BTCUSDT/BTCUSDT-5m-2026-10-31.zip.CHECKSUM",
+      "url": "https://data.binance.vision/data/spot/daily/klines/BTCUSDT/5m/BTCUSDT-5m-2026-10-31.zip.CHECKSUM",
+      "bytes": 91,
+      "sha256": "ac741bc7a32985c4be8babf5c5b75bd80b7a5286e0759b5f139425a357d90cb9",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/DLTBTC/DLTBTC-5m-2020-01-01.zip",
+      "url": "https://data.binance.vision/data/spot/daily/klines/DLTBTC/5m/DLTBTC-5m-2020-01-01.zip",
+      "bytes": 5960,
+      "sha256": "6f648516685820ce6392417943a90015e27cf3bdfedcc4a164da9c934eaa12eb",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/DLTBTC/DLTBTC-5m-2020-01-01.zip.CHECKSUM",
+      "url": "https://data.binance.vision/data/spot/daily/klines/DLTBTC/5m/DLTBTC-5m-2020-01-01.zip.CHECKSUM",
+      "bytes": 90,
+      "sha256": "11617274487b677099df1083993af6d1ee38a268c28ce5fec89e20f2ed3380ec",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/DLTBTC/DLTBTC-5m-2020-01-02.zip",
+      "url": "https://data.binance.vision/data/spot/daily/klines/DLTBTC/5m/DLTBTC-5m-2020-01-02.zip",
+      "bytes": 5689,
+      "sha256": "90db928d5a48aa980187e2f6fc0b58bb13420f713e122fb124486522603475fe",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/DLTBTC/DLTBTC-5m-2020-01-02.zip.CHECKSUM",
+      "url": "https://data.binance.vision/data/spot/daily/klines/DLTBTC/5m/DLTBTC-5m-2020-01-02.zip.CHECKSUM",
+      "bytes": 90,
+      "sha256": "1e23a6975bb801342f36e70524e6ee71c4395149ceb39922d363c92caf4b418f",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/DLTBTC/DLTBTC-5m-2020-01-03.zip",
+      "url": "https://data.binance.vision/data/spot/daily/klines/DLTBTC/5m/DLTBTC-5m-2020-01-03.zip",
+      "bytes": 7251,
+      "sha256": "188c446212dd6d1f79c5e61fae79dedd2ab46c453e968ff935f11e581111e8c7",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/DLTBTC/DLTBTC-5m-2020-01-03.zip.CHECKSUM",
+      "url": "https://data.binance.vision/data/spot/daily/klines/DLTBTC/5m/DLTBTC-5m-2020-01-03.zip.CHECKSUM",
+      "bytes": 90,
+      "sha256": "a9cdc6d68301efeecf099b946a2f8e532568cdcf960545f836ae0353d19ef314",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/DLTBTC/DLTBTC-5m-2020-01-04.zip",
+      "url": "https://data.binance.vision/data/spot/daily/klines/DLTBTC/5m/DLTBTC-5m-2020-01-04.zip",
+      "bytes": 6985,
+      "sha256": "252a3ebd1b34b4cd680661932460163cafaed70b3885a8c864ff035e87352c4a",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/DLTBTC/DLTBTC-5m-2020-01-04.zip.CHECKSUM",
+      "url": "https://data.binance.vision/data/spot/daily/klines/DLTBTC/5m/DLTBTC-5m-2020-01-04.zip.CHECKSUM",
+      "bytes": 90,
+      "sha256": "6666dba785ecc261609549f3adcecd771c944c88d166d5f78db16cd98de0bcf8",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/DLTBTC/DLTBTC-5m-2020-01-05.zip",
+      "url": "https://data.binance.vision/data/spot/daily/klines/DLTBTC/5m/DLTBTC-5m-2020-01-05.zip",
+      "bytes": 10236,
+      "sha256": "8732ae931c6d8945d82efa4c657850c4d36298e2db02575ca98bc9cfbddc2636",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/DLTBTC/DLTBTC-5m-2020-01-05.zip.CHECKSUM",
+      "url": "https://data.binance.vision/data/spot/daily/klines/DLTBTC/5m/DLTBTC-5m-2020-01-05.zip.CHECKSUM",
+      "bytes": 90,
+      "sha256": "b530ee6cdf30f35ab05001ce4401404583264c7769d6719af0941102ff543460",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/ETHUSDT/ETHUSDT-5m-2026-10-29.zip",
+      "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDT/5m/ETHUSDT-5m-2026-10-29.zip",
+      "bytes": 14985,
+      "sha256": "253cd3e7a6deef6209f652425f569fca858dbb1efd4deba1c3d5e35f0cc4c0a7",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/ETHUSDT/ETHUSDT-5m-2026-10-29.zip.CHECKSUM",
+      "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDT/5m/ETHUSDT-5m-2026-10-29.zip.CHECKSUM",
+      "bytes": 91,
+      "sha256": "7909383aba3ede55d91178fec8c681e40768fac4e348bb0f5b622ac321e1d443",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/ETHUSDT/ETHUSDT-5m-2026-10-30.zip",
+      "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDT/5m/ETHUSDT-5m-2026-10-30.zip",
+      "bytes": 15035,
+      "sha256": "d7a894959a7e3d3b5190380006cb05a328065dd072660dd0593b50679943f5bd",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/ETHUSDT/ETHUSDT-5m-2026-10-30.zip.CHECKSUM",
+      "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDT/5m/ETHUSDT-5m-2026-10-30.zip.CHECKSUM",
+      "bytes": 91,
+      "sha256": "d3d549d950b13633a1c68be86cb1f6425ecb49416f7cea6bf314778769f2761c",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/ETHUSDT/ETHUSDT-5m-2026-10-31.zip",
+      "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDT/5m/ETHUSDT-5m-2026-10-31.zip",
+      "bytes": 13852,
+      "sha256": "ce6be16ccd7e36ae406e0d0af21f7c4d1abe2e3177d5baba107a470e4ff00f1e",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/ETHUSDT/ETHUSDT-5m-2026-10-31.zip.CHECKSUM",
+      "url": "https://data.binance.vision/data/spot/daily/klines/ETHUSDT/5m/ETHUSDT-5m-2026-10-31.zip.CHECKSUM",
+      "bytes": 91,
+      "sha256": "3ca5ca8b854dcad38ba03615207a09086af3a141a2e0ec9c12f552acd45ffa92",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/EVXBTC/EVXBTC-5m-2021-01-06.zip",
+      "url": "https://data.binance.vision/data/spot/daily/klines/EVXBTC/5m/EVXBTC-5m-2021-01-06.zip",
+      "bytes": 6291,
+      "sha256": "00cade4dee7641b96142b202aebb0047d18bb0a9a984b9abbd72c9fdb806fe26",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/EVXBTC/EVXBTC-5m-2021-01-06.zip.CHECKSUM",
+      "url": "https://data.binance.vision/data/spot/daily/klines/EVXBTC/5m/EVXBTC-5m-2021-01-06.zip.CHECKSUM",
+      "bytes": 90,
+      "sha256": "dc2f80a4500e2bb9a6bd5c410d115afdc6c604af4389b679bbea25e88949a40b",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/EVXBTC/EVXBTC-5m-2021-01-07.zip",
+      "url": "https://data.binance.vision/data/spot/daily/klines/EVXBTC/5m/EVXBTC-5m-2021-01-07.zip",
+      "bytes": 7749,
+      "sha256": "ea220b36a66235f17d4ed501fd2dad665490197dd0f693698666d74fd6e5e523",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/EVXBTC/EVXBTC-5m-2021-01-07.zip.CHECKSUM",
+      "url": "https://data.binance.vision/data/spot/daily/klines/EVXBTC/5m/EVXBTC-5m-2021-01-07.zip.CHECKSUM",
+      "bytes": 90,
+      "sha256": "647efd6c37a636b320be4f0f562ac127408aa2055249908e94cabc3e3105923f",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/EVXBTC/EVXBTC-5m-2021-01-08.zip",
+      "url": "https://data.binance.vision/data/spot/daily/klines/EVXBTC/5m/EVXBTC-5m-2021-01-08.zip",
+      "bytes": 7966,
+      "sha256": "d54e9d09ad27d4c5b27486c419442b6e24cd682a5a3109998d1f47908bbeb2a8",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/EVXBTC/EVXBTC-5m-2021-01-08.zip.CHECKSUM",
+      "url": "https://data.binance.vision/data/spot/daily/klines/EVXBTC/5m/EVXBTC-5m-2021-01-08.zip.CHECKSUM",
+      "bytes": 90,
+      "sha256": "51327d0ed75b88223d72dae559a5bc78fb6606be7374afb4b65f6917d93f0203",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/EVXBTC/EVXBTC-5m-2021-01-09.zip",
+      "url": "https://data.binance.vision/data/spot/daily/klines/EVXBTC/5m/EVXBTC-5m-2021-01-09.zip",
+      "bytes": 8367,
+      "sha256": "9bc220dd8eab3757a9264a30b15765a68d97f70104658773a0eb8d1d4c2f38fc",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/EVXBTC/EVXBTC-5m-2021-01-09.zip.CHECKSUM",
+      "url": "https://data.binance.vision/data/spot/daily/klines/EVXBTC/5m/EVXBTC-5m-2021-01-09.zip.CHECKSUM",
+      "bytes": 90,
+      "sha256": "56d702c460c7d03245a0cfa195153aca5f77f548e18e4bf4d6e3291a323d9699",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/EVXBTC/EVXBTC-5m-2021-01-10.zip",
+      "url": "https://data.binance.vision/data/spot/daily/klines/EVXBTC/5m/EVXBTC-5m-2021-01-10.zip",
+      "bytes": 8935,
+      "sha256": "bba0a17245035415d2cab7fa50e7e087f0085039e6790edc7c2c0fc0f41db82a",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/EVXBTC/EVXBTC-5m-2021-01-10.zip.CHECKSUM",
+      "url": "https://data.binance.vision/data/spot/daily/klines/EVXBTC/5m/EVXBTC-5m-2021-01-10.zip.CHECKSUM",
+      "bytes": 90,
+      "sha256": "1ecb6022ab8f41d36817fd17cb1f878024b9f18b07a69fce5b5c1d564ff7ab35",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/IDEXBTC/IDEXBTC-5m-2020-12-28.zip",
+      "url": "https://data.binance.vision/data/spot/daily/klines/IDEXBTC/5m/IDEXBTC-5m-2020-12-28.zip",
+      "bytes": 4575,
+      "sha256": "6c8c108ab5a8c339a0e9f91746d421197a1b040c62096beaf6eb94ace18b731a",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/IDEXBTC/IDEXBTC-5m-2020-12-28.zip.CHECKSUM",
+      "url": "https://data.binance.vision/data/spot/daily/klines/IDEXBTC/5m/IDEXBTC-5m-2020-12-28.zip.CHECKSUM",
+      "bytes": 91,
+      "sha256": "c4f2444d8d2dacf9b757bfb573fabe7f7d58ebee841edf6b4051b9db67d6f32f",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/IDEXBTC/IDEXBTC-5m-2020-12-29.zip",
+      "url": "https://data.binance.vision/data/spot/daily/klines/IDEXBTC/5m/IDEXBTC-5m-2020-12-29.zip",
+      "bytes": 5463,
+      "sha256": "ad403fe9d7c50ef554ea5fb6902e26ad066fc6375afbe6ae2b747fb087935ebb",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/IDEXBTC/IDEXBTC-5m-2020-12-29.zip.CHECKSUM",
+      "url": "https://data.binance.vision/data/spot/daily/klines/IDEXBTC/5m/IDEXBTC-5m-2020-12-29.zip.CHECKSUM",
+      "bytes": 91,
+      "sha256": "b44ec816e7189b909490b41643681f7948481a2e7cfd91f251571bc4d76edbfe",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/IDEXBTC/IDEXBTC-5m-2020-12-30.zip",
+      "url": "https://data.binance.vision/data/spot/daily/klines/IDEXBTC/5m/IDEXBTC-5m-2020-12-30.zip",
+      "bytes": 5457,
+      "sha256": "cbee9a5333c177a9c1a435ae5290c56150218c349b510405294e015959d50d49",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/IDEXBTC/IDEXBTC-5m-2020-12-30.zip.CHECKSUM",
+      "url": "https://data.binance.vision/data/spot/daily/klines/IDEXBTC/5m/IDEXBTC-5m-2020-12-30.zip.CHECKSUM",
+      "bytes": 91,
+      "sha256": "35698fc2b1674456f3782b00b017e49b1366f45150b8363af4dc0cc2ce8f025d",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/IDEXBTC/IDEXBTC-5m-2020-12-31.zip",
+      "url": "https://data.binance.vision/data/spot/daily/klines/IDEXBTC/5m/IDEXBTC-5m-2020-12-31.zip",
+      "bytes": 6522,
+      "sha256": "00eecc05700bb872dd3553b0b80b6124c6ac6604e0b43aafa7e28fc44cc6ed0b",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/IDEXBTC/IDEXBTC-5m-2020-12-31.zip.CHECKSUM",
+      "url": "https://data.binance.vision/data/spot/daily/klines/IDEXBTC/5m/IDEXBTC-5m-2020-12-31.zip.CHECKSUM",
+      "bytes": 91,
+      "sha256": "c6f7c69c88be257325ed9c31ba76c2d77e45cdc52cfc3df23306222fdb97dfd0",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/IDEXBTC/IDEXBTC-5m-2021-01-01.zip",
+      "url": "https://data.binance.vision/data/spot/daily/klines/IDEXBTC/5m/IDEXBTC-5m-2021-01-01.zip",
+      "bytes": 7215,
+      "sha256": "dc8eaa13e9693749e6ae9487a352c8d22b89ab7be38107c6b154af18160fef9f",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/IDEXBTC/IDEXBTC-5m-2021-01-01.zip.CHECKSUM",
+      "url": "https://data.binance.vision/data/spot/daily/klines/IDEXBTC/5m/IDEXBTC-5m-2021-01-01.zip.CHECKSUM",
+      "bytes": 91,
+      "sha256": "d6acf23c10c152e9de8ae8e679bfbbedb42e63f93736c1687ac0eb243b03d30c",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/NAVBTC/NAVBTC-5m-2019-12-16.zip",
+      "url": "https://data.binance.vision/data/spot/daily/klines/NAVBTC/5m/NAVBTC-5m-2019-12-16.zip",
+      "bytes": 4906,
+      "sha256": "ba84cdc1ab615f71c80211a65083f9dfad7132d9531d770d8533d10704a60be9",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/NAVBTC/NAVBTC-5m-2019-12-16.zip.CHECKSUM",
+      "url": "https://data.binance.vision/data/spot/daily/klines/NAVBTC/5m/NAVBTC-5m-2019-12-16.zip.CHECKSUM",
+      "bytes": 90,
+      "sha256": "d37df45b1972158aa12079cc783d4dbd794f08edac9fb67be85e95fcfc8e8fbf",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/NAVBTC/NAVBTC-5m-2019-12-17.zip",
+      "url": "https://data.binance.vision/data/spot/daily/klines/NAVBTC/5m/NAVBTC-5m-2019-12-17.zip",
+      "bytes": 5019,
+      "sha256": "2296a9d7d6208f2745ee1dc8ff70d49d3eb0db9db744f6e034dff39e9d46cab3",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/NAVBTC/NAVBTC-5m-2019-12-17.zip.CHECKSUM",
+      "url": "https://data.binance.vision/data/spot/daily/klines/NAVBTC/5m/NAVBTC-5m-2019-12-17.zip.CHECKSUM",
+      "bytes": 90,
+      "sha256": "0a49310324a2a1fb916dd68d17b13d6975170665d1c9d2d232f9dd8b258b9815",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/NAVBTC/NAVBTC-5m-2019-12-18.zip",
+      "url": "https://data.binance.vision/data/spot/daily/klines/NAVBTC/5m/NAVBTC-5m-2019-12-18.zip",
+      "bytes": 4503,
+      "sha256": "03dda065be4f7fca5256248ed5ad14be0911499a3d74580ad2192e406f0bb487",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/NAVBTC/NAVBTC-5m-2019-12-18.zip.CHECKSUM",
+      "url": "https://data.binance.vision/data/spot/daily/klines/NAVBTC/5m/NAVBTC-5m-2019-12-18.zip.CHECKSUM",
+      "bytes": 90,
+      "sha256": "d9f895a298e7daf5c4bcd972475f1d4c052110ec179a52286a97acab1c2880b0",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/NAVBTC/NAVBTC-5m-2019-12-19.zip",
+      "url": "https://data.binance.vision/data/spot/daily/klines/NAVBTC/5m/NAVBTC-5m-2019-12-19.zip",
+      "bytes": 5808,
+      "sha256": "fd7736c5a1f723281a5a35fde75547d0eb59d266044282f70d7939357fd2cc13",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/NAVBTC/NAVBTC-5m-2019-12-19.zip.CHECKSUM",
+      "url": "https://data.binance.vision/data/spot/daily/klines/NAVBTC/5m/NAVBTC-5m-2019-12-19.zip.CHECKSUM",
+      "bytes": 90,
+      "sha256": "f2f62a52d6eb9c5e26326104987d7a67cec2fbf419f5aa4509b1318dc04a2875",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/NAVBTC/NAVBTC-5m-2019-12-20.zip",
+      "url": "https://data.binance.vision/data/spot/daily/klines/NAVBTC/5m/NAVBTC-5m-2019-12-20.zip",
+      "bytes": 7240,
+      "sha256": "06e916ed3f56dc31e0d6f8475d12b6ba3c44ae2277d271c8061d8717c386b82f",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/NAVBTC/NAVBTC-5m-2019-12-20.zip.CHECKSUM",
+      "url": "https://data.binance.vision/data/spot/daily/klines/NAVBTC/5m/NAVBTC-5m-2019-12-20.zip.CHECKSUM",
+      "bytes": 90,
+      "sha256": "cb51c35c07ee6c1217535d2460c299be0c89ef1c4ad18ee0c5d928214d9f9de8",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/NEBLBTC/NEBLBTC-5m-2020-12-30.zip",
+      "url": "https://data.binance.vision/data/spot/daily/klines/NEBLBTC/5m/NEBLBTC-5m-2020-12-30.zip",
+      "bytes": 9145,
+      "sha256": "0c89fa21cc77496c99712ad269dcb7fa3e1ac13004ab6b93612daddb5ca401cf",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/NEBLBTC/NEBLBTC-5m-2020-12-30.zip.CHECKSUM",
+      "url": "https://data.binance.vision/data/spot/daily/klines/NEBLBTC/5m/NEBLBTC-5m-2020-12-30.zip.CHECKSUM",
+      "bytes": 91,
+      "sha256": "ffa7a10313b2fa0e6f79290aaab14d0e91e4ac570d87836e2812b26e1e327386",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/NEBLBTC/NEBLBTC-5m-2020-12-31.zip",
+      "url": "https://data.binance.vision/data/spot/daily/klines/NEBLBTC/5m/NEBLBTC-5m-2020-12-31.zip",
+      "bytes": 8657,
+      "sha256": "35b46f54993b7044e03633fa29f9f27e39e5a9ec30a035e93e9e69e5037855ca",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/NEBLBTC/NEBLBTC-5m-2020-12-31.zip.CHECKSUM",
+      "url": "https://data.binance.vision/data/spot/daily/klines/NEBLBTC/5m/NEBLBTC-5m-2020-12-31.zip.CHECKSUM",
+      "bytes": 91,
+      "sha256": "0908cdc8dd3699d72d019565751af7bbd2eadb0b83cc8b8228adb0a83bf24037",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/NEBLBTC/NEBLBTC-5m-2021-01-01.zip",
+      "url": "https://data.binance.vision/data/spot/daily/klines/NEBLBTC/5m/NEBLBTC-5m-2021-01-01.zip",
+      "bytes": 6138,
+      "sha256": "e2f4c1bfc8192976c8857707f67d5e36f6faf69a4897ca7f233aa8ac410c9c8a",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/NEBLBTC/NEBLBTC-5m-2021-01-01.zip.CHECKSUM",
+      "url": "https://data.binance.vision/data/spot/daily/klines/NEBLBTC/5m/NEBLBTC-5m-2021-01-01.zip.CHECKSUM",
+      "bytes": 91,
+      "sha256": "0f982e799e4489d4d3fcaeda38b0ed78f5e612b7468113568e4c40edf025f239",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/NEBLBTC/NEBLBTC-5m-2021-01-02.zip",
+      "url": "https://data.binance.vision/data/spot/daily/klines/NEBLBTC/5m/NEBLBTC-5m-2021-01-02.zip",
+      "bytes": 8231,
+      "sha256": "a62d94107e68a131080f7ba931a41ed75c17933e3e0a33eef6cfe101d1bc151d",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/NEBLBTC/NEBLBTC-5m-2021-01-02.zip.CHECKSUM",
+      "url": "https://data.binance.vision/data/spot/daily/klines/NEBLBTC/5m/NEBLBTC-5m-2021-01-02.zip.CHECKSUM",
+      "bytes": 91,
+      "sha256": "3867a70e14095ee5e844a47dd26e7c6ec1ae0bc711b473bd7c4e591161a2f833",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/NEBLBTC/NEBLBTC-5m-2021-01-03.zip",
+      "url": "https://data.binance.vision/data/spot/daily/klines/NEBLBTC/5m/NEBLBTC-5m-2021-01-03.zip",
+      "bytes": 9519,
+      "sha256": "472274edd4ea7522aa429839d65dc2a6366239b33708101579d56ea8c571b388",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/NEBLBTC/NEBLBTC-5m-2021-01-03.zip.CHECKSUM",
+      "url": "https://data.binance.vision/data/spot/daily/klines/NEBLBTC/5m/NEBLBTC-5m-2021-01-03.zip.CHECKSUM",
+      "bytes": 91,
+      "sha256": "ce05e60d974910e65b389e07fcca0187b2b65e7942388109c0f0bd7dc6fc1099",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/PIVXBTC/PIVXBTC-5m-2018-07-16.zip",
+      "url": "https://data.binance.vision/data/spot/daily/klines/PIVXBTC/5m/PIVXBTC-5m-2018-07-16.zip",
+      "bytes": 8477,
+      "sha256": "799923b662aae25132edfe3bafdfd92a725b9bef6d9cfd75c8623d765d1fc83d",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/PIVXBTC/PIVXBTC-5m-2018-07-16.zip.CHECKSUM",
+      "url": "https://data.binance.vision/data/spot/daily/klines/PIVXBTC/5m/PIVXBTC-5m-2018-07-16.zip.CHECKSUM",
+      "bytes": 91,
+      "sha256": "41e049bee30031dd4d640cf59d72004b138e97183ca4e52382e00f7b26a4a7d3",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/PIVXBTC/PIVXBTC-5m-2018-07-17.zip",
+      "url": "https://data.binance.vision/data/spot/daily/klines/PIVXBTC/5m/PIVXBTC-5m-2018-07-17.zip",
+      "bytes": 8284,
+      "sha256": "0383c49f1abb4e23a2e92f0e802e82b74e0bb91e131b55aebabefdd1d760a577",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/PIVXBTC/PIVXBTC-5m-2018-07-17.zip.CHECKSUM",
+      "url": "https://data.binance.vision/data/spot/daily/klines/PIVXBTC/5m/PIVXBTC-5m-2018-07-17.zip.CHECKSUM",
+      "bytes": 91,
+      "sha256": "1f1ca3966126f311050a30ea1b3470216738ad200cf16c22b566db512810dab1",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/PIVXBTC/PIVXBTC-5m-2018-07-18.zip",
+      "url": "https://data.binance.vision/data/spot/daily/klines/PIVXBTC/5m/PIVXBTC-5m-2018-07-18.zip",
+      "bytes": 8950,
+      "sha256": "f14db5d845ce7b27722e72ec17e2184222033127bcb4d10d2902c02d5fc67e6f",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/PIVXBTC/PIVXBTC-5m-2018-07-18.zip.CHECKSUM",
+      "url": "https://data.binance.vision/data/spot/daily/klines/PIVXBTC/5m/PIVXBTC-5m-2018-07-18.zip.CHECKSUM",
+      "bytes": 91,
+      "sha256": "b26fb399eda7645ae5a4aea32c285941a15ee16610ca69fe546f443e55712e27",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/PIVXBTC/PIVXBTC-5m-2018-07-19.zip",
+      "url": "https://data.binance.vision/data/spot/daily/klines/PIVXBTC/5m/PIVXBTC-5m-2018-07-19.zip",
+      "bytes": 8320,
+      "sha256": "263eea70e7a2b2b653dff6d97f4d479480c41c8f97e1c5a056da94fb0b361cf9",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/PIVXBTC/PIVXBTC-5m-2018-07-19.zip.CHECKSUM",
+      "url": "https://data.binance.vision/data/spot/daily/klines/PIVXBTC/5m/PIVXBTC-5m-2018-07-19.zip.CHECKSUM",
+      "bytes": 91,
+      "sha256": "62499b9c730cfa8af174fd6efebedeab63510befcbe40aeef3252601b2646f7d",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/PIVXBTC/PIVXBTC-5m-2018-07-20.zip",
+      "url": "https://data.binance.vision/data/spot/daily/klines/PIVXBTC/5m/PIVXBTC-5m-2018-07-20.zip",
+      "bytes": 8358,
+      "sha256": "bbec3e3c6a363772bbbbff1ccbd298202969eb6be91300dd88e546524ff4cd4d",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/PIVXBTC/PIVXBTC-5m-2018-07-20.zip.CHECKSUM",
+      "url": "https://data.binance.vision/data/spot/daily/klines/PIVXBTC/5m/PIVXBTC-5m-2018-07-20.zip.CHECKSUM",
+      "bytes": 91,
+      "sha256": "846edab11905b93f98550a745a17b999bdf954100fa0f4027a9fedff708f08c1",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/PPTBTC/PPTBTC-5m-2017-12-31.zip",
+      "url": "https://data.binance.vision/data/spot/daily/klines/PPTBTC/5m/PPTBTC-5m-2017-12-31.zip",
+      "bytes": 8520,
+      "sha256": "1b9158aabefe70091cae3fa14d15790ca7ba0e4466c27a04ea2e8c69848d5d24",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/PPTBTC/PPTBTC-5m-2017-12-31.zip.CHECKSUM",
+      "url": "https://data.binance.vision/data/spot/daily/klines/PPTBTC/5m/PPTBTC-5m-2017-12-31.zip.CHECKSUM",
+      "bytes": 90,
+      "sha256": "1fc0ddaaf6df9379dcf8c0fe9cb8410342b9ccf870bd2ac705d529d5864b9a77",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/PPTBTC/PPTBTC-5m-2018-01-01.zip",
+      "url": "https://data.binance.vision/data/spot/daily/klines/PPTBTC/5m/PPTBTC-5m-2018-01-01.zip",
+      "bytes": 8033,
+      "sha256": "65de9cfa5edebc5f12f18a25183f8296689945b5f2e09712e08d12abb4cfe6be",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/PPTBTC/PPTBTC-5m-2018-01-01.zip.CHECKSUM",
+      "url": "https://data.binance.vision/data/spot/daily/klines/PPTBTC/5m/PPTBTC-5m-2018-01-01.zip.CHECKSUM",
+      "bytes": 90,
+      "sha256": "23f163a5fc4625da5007507c2ab7b41c27868e6ec868b0cce048a8fe8fa7587a",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/PPTBTC/PPTBTC-5m-2018-01-02.zip",
+      "url": "https://data.binance.vision/data/spot/daily/klines/PPTBTC/5m/PPTBTC-5m-2018-01-02.zip",
+      "bytes": 8884,
+      "sha256": "386a817c37736ebae158f4d0ccae350a7cc2b271508e8a3ce0eb4a504ad2dcc4",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/PPTBTC/PPTBTC-5m-2018-01-02.zip.CHECKSUM",
+      "url": "https://data.binance.vision/data/spot/daily/klines/PPTBTC/5m/PPTBTC-5m-2018-01-02.zip.CHECKSUM",
+      "bytes": 90,
+      "sha256": "44cef2565f0aefa5983e670fd073eb284157404e769fce8ed3e051ced7f9fb47",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/PPTBTC/PPTBTC-5m-2018-01-03.zip",
+      "url": "https://data.binance.vision/data/spot/daily/klines/PPTBTC/5m/PPTBTC-5m-2018-01-03.zip",
+      "bytes": 9349,
+      "sha256": "092d9a7775207139a5cb95d3cf682f9073e5bbe363f80e65f657c1ffe5b170ad",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/PPTBTC/PPTBTC-5m-2018-01-03.zip.CHECKSUM",
+      "url": "https://data.binance.vision/data/spot/daily/klines/PPTBTC/5m/PPTBTC-5m-2018-01-03.zip.CHECKSUM",
+      "bytes": 90,
+      "sha256": "4175cc4a05b3f095a0312e3cd92682db5ce8ba09ecb1936a9cecc9c7e947c408",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/PPTBTC/PPTBTC-5m-2018-01-04.zip",
+      "url": "https://data.binance.vision/data/spot/daily/klines/PPTBTC/5m/PPTBTC-5m-2018-01-04.zip",
+      "bytes": 9854,
+      "sha256": "78bf9ee89446116054729997351d3425a7c3df072fbcdbe7e1867ddc5fe323c4",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/PPTBTC/PPTBTC-5m-2018-01-04.zip.CHECKSUM",
+      "url": "https://data.binance.vision/data/spot/daily/klines/PPTBTC/5m/PPTBTC-5m-2018-01-04.zip.CHECKSUM",
+      "bytes": 90,
+      "sha256": "149862b7756f371602a1e3b598593afec4267d3fb89dfc43d17e543aa8242823",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/SNGLSBTC/SNGLSBTC-5m-2019-06-25.zip",
+      "url": "https://data.binance.vision/data/spot/daily/klines/SNGLSBTC/5m/SNGLSBTC-5m-2019-06-25.zip",
+      "bytes": 6605,
+      "sha256": "f2213b017f178c028ec97e7c60cc9919006c719a90e3d12592cefdb65d737c1b",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/SNGLSBTC/SNGLSBTC-5m-2019-06-25.zip.CHECKSUM",
+      "url": "https://data.binance.vision/data/spot/daily/klines/SNGLSBTC/5m/SNGLSBTC-5m-2019-06-25.zip.CHECKSUM",
+      "bytes": 92,
+      "sha256": "4db0df737cbcae53ded8c76c4a6b94980e14bbd7f5d338fe803ff4ce004eb7c0",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/SNGLSBTC/SNGLSBTC-5m-2019-06-26.zip",
+      "url": "https://data.binance.vision/data/spot/daily/klines/SNGLSBTC/5m/SNGLSBTC-5m-2019-06-26.zip",
+      "bytes": 7473,
+      "sha256": "a55088aaf0f03af65fb3e32d7a5b1ed5e6621db77dfc3d1d2fc46394cf9d6aa4",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/SNGLSBTC/SNGLSBTC-5m-2019-06-26.zip.CHECKSUM",
+      "url": "https://data.binance.vision/data/spot/daily/klines/SNGLSBTC/5m/SNGLSBTC-5m-2019-06-26.zip.CHECKSUM",
+      "bytes": 92,
+      "sha256": "67b45a2b5e0d125417d287b1bb2a4d9e99d82ccd70e4de881d4c00164357b8b9",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/SNGLSBTC/SNGLSBTC-5m-2019-06-27.zip",
+      "url": "https://data.binance.vision/data/spot/daily/klines/SNGLSBTC/5m/SNGLSBTC-5m-2019-06-27.zip",
+      "bytes": 6656,
+      "sha256": "8d116dab28e7953d9ca368a78f7a6c8c0466ae4441ab70b40fff5ade0f2da81d",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/SNGLSBTC/SNGLSBTC-5m-2019-06-27.zip.CHECKSUM",
+      "url": "https://data.binance.vision/data/spot/daily/klines/SNGLSBTC/5m/SNGLSBTC-5m-2019-06-27.zip.CHECKSUM",
+      "bytes": 92,
+      "sha256": "07171217591e716a3dca1cd086e49371e4dcadd5fdbca8451f66c2ef56306d8b",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/SNGLSBTC/SNGLSBTC-5m-2019-06-28.zip",
+      "url": "https://data.binance.vision/data/spot/daily/klines/SNGLSBTC/5m/SNGLSBTC-5m-2019-06-28.zip",
+      "bytes": 5862,
+      "sha256": "bb7cbb94de29e80103503f8d416e49be6fd370fbe339eb880b1d995668dc3c04",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/SNGLSBTC/SNGLSBTC-5m-2019-06-28.zip.CHECKSUM",
+      "url": "https://data.binance.vision/data/spot/daily/klines/SNGLSBTC/5m/SNGLSBTC-5m-2019-06-28.zip.CHECKSUM",
+      "bytes": 92,
+      "sha256": "a29519b1a43804114d806b8c010791c371c56e25bd053a2b607f079cbd5452ba",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/SNGLSBTC/SNGLSBTC-5m-2019-06-29.zip",
+      "url": "https://data.binance.vision/data/spot/daily/klines/SNGLSBTC/5m/SNGLSBTC-5m-2019-06-29.zip",
+      "bytes": 6432,
+      "sha256": "d7e483a8979159e1af4de3bd9a7d7182fe32a721586b47561e222ac45b517acd",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/SNGLSBTC/SNGLSBTC-5m-2019-06-29.zip.CHECKSUM",
+      "url": "https://data.binance.vision/data/spot/daily/klines/SNGLSBTC/5m/SNGLSBTC-5m-2019-06-29.zip.CHECKSUM",
+      "bytes": 92,
+      "sha256": "c18424f5495acbfd82c432cbb1ae50e0a25e558caf68f4478c545956c6566b69",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/STEEMBTC/STEEMBTC-5m-2021-01-15.zip",
+      "url": "https://data.binance.vision/data/spot/daily/klines/STEEMBTC/5m/STEEMBTC-5m-2021-01-15.zip",
+      "bytes": 7907,
+      "sha256": "0379051fdfc203bd57ca9986b965b8993d7ab2c7f2b0dd862e81011df74b029a",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/STEEMBTC/STEEMBTC-5m-2021-01-15.zip.CHECKSUM",
+      "url": "https://data.binance.vision/data/spot/daily/klines/STEEMBTC/5m/STEEMBTC-5m-2021-01-15.zip.CHECKSUM",
+      "bytes": 92,
+      "sha256": "86a4510533c30522be72917d859595a3c46eea79bc9e90a62c87ad1f728a85c4",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/STEEMBTC/STEEMBTC-5m-2021-01-16.zip",
+      "url": "https://data.binance.vision/data/spot/daily/klines/STEEMBTC/5m/STEEMBTC-5m-2021-01-16.zip",
+      "bytes": 7937,
+      "sha256": "028f3900e32405077c5238dfe0d5ef8fb21a4e3e53529f760003a145d612d643",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/STEEMBTC/STEEMBTC-5m-2021-01-16.zip.CHECKSUM",
+      "url": "https://data.binance.vision/data/spot/daily/klines/STEEMBTC/5m/STEEMBTC-5m-2021-01-16.zip.CHECKSUM",
+      "bytes": 92,
+      "sha256": "9a3f75097324efbfbbbcfde4593db99ec27c689e0d72871c3e07eb1aeb2eb24c",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/STEEMBTC/STEEMBTC-5m-2021-01-17.zip",
+      "url": "https://data.binance.vision/data/spot/daily/klines/STEEMBTC/5m/STEEMBTC-5m-2021-01-17.zip",
+      "bytes": 8974,
+      "sha256": "8b048d585923cd1e3e6ba3d8f50eaf382393eeb692a19be0a4b5c0db11b75b65",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/STEEMBTC/STEEMBTC-5m-2021-01-17.zip.CHECKSUM",
+      "url": "https://data.binance.vision/data/spot/daily/klines/STEEMBTC/5m/STEEMBTC-5m-2021-01-17.zip.CHECKSUM",
+      "bytes": 92,
+      "sha256": "cb9d2c42889a074ad26363416c9ceacc5795f08550cef893820ee4ab0ecd061d",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/STEEMBTC/STEEMBTC-5m-2021-01-18.zip",
+      "url": "https://data.binance.vision/data/spot/daily/klines/STEEMBTC/5m/STEEMBTC-5m-2021-01-18.zip",
+      "bytes": 8834,
+      "sha256": "a4833ad24bce45603098a6f788e45733c1cbcc417d264de6f25cee1163bb4a2e",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/STEEMBTC/STEEMBTC-5m-2021-01-18.zip.CHECKSUM",
+      "url": "https://data.binance.vision/data/spot/daily/klines/STEEMBTC/5m/STEEMBTC-5m-2021-01-18.zip.CHECKSUM",
+      "bytes": 92,
+      "sha256": "9c9be682dd45ad41d70dea6e15d2349c65bbdf2c61258e82fab5883388901f8b",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/STEEMBTC/STEEMBTC-5m-2021-01-19.zip",
+      "url": "https://data.binance.vision/data/spot/daily/klines/STEEMBTC/5m/STEEMBTC-5m-2021-01-19.zip",
+      "bytes": 8654,
+      "sha256": "a72d6d98b17acad45a2e35e0ac6e8613621819b3060d43b6d8305d94066411b2",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/STEEMBTC/STEEMBTC-5m-2021-01-19.zip.CHECKSUM",
+      "url": "https://data.binance.vision/data/spot/daily/klines/STEEMBTC/5m/STEEMBTC-5m-2021-01-19.zip.CHECKSUM",
+      "bytes": 92,
+      "sha256": "34c86f110f1456acf8ca1c2826bdfc6c123c9c247b02109f2e9e9d42d9ed59f7",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/TERMS_AND_CONDITIONS.md",
+      "url": "https://raw.githubusercontent.com/binance/binance-public-data/master/TERMS_AND_CONDITIONS.md",
+      "bytes": 9807,
+      "sha256": "99c4921dbe023cd68c1a447775707d621453cc78aec6ac0bfe2e6c06a5114ee0",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/VIABTC/VIABTC-5m-2020-06-07.zip",
+      "url": "https://data.binance.vision/data/spot/daily/klines/VIABTC/5m/VIABTC-5m-2020-06-07.zip",
+      "bytes": 5651,
+      "sha256": "bd4ec4a2af8a03a565375b37f2df02d9d3dda615b913f0c7ae3923000f2b1f6b",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/VIABTC/VIABTC-5m-2020-06-07.zip.CHECKSUM",
+      "url": "https://data.binance.vision/data/spot/daily/klines/VIABTC/5m/VIABTC-5m-2020-06-07.zip.CHECKSUM",
+      "bytes": 90,
+      "sha256": "64521efdf6ce714186c42ecbe1f74364d9ca280bbcdc4b072ea84b57188b9f11",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/VIABTC/VIABTC-5m-2020-06-08.zip",
+      "url": "https://data.binance.vision/data/spot/daily/klines/VIABTC/5m/VIABTC-5m-2020-06-08.zip",
+      "bytes": 5986,
+      "sha256": "250988d35e0270b4f6d2aeea1aa0d86511367b5c7e5c726977a81668dee5794d",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/VIABTC/VIABTC-5m-2020-06-08.zip.CHECKSUM",
+      "url": "https://data.binance.vision/data/spot/daily/klines/VIABTC/5m/VIABTC-5m-2020-06-08.zip.CHECKSUM",
+      "bytes": 90,
+      "sha256": "87f36a3fbf63283f17f04f748d05a3e39efd00c399963f38bac85d34acc12084",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/VIABTC/VIABTC-5m-2020-06-09.zip",
+      "url": "https://data.binance.vision/data/spot/daily/klines/VIABTC/5m/VIABTC-5m-2020-06-09.zip",
+      "bytes": 9175,
+      "sha256": "897683130c2057ee02e68f7ff2a952af33bd61158bd222f715092d537d7ddf6e",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/VIABTC/VIABTC-5m-2020-06-09.zip.CHECKSUM",
+      "url": "https://data.binance.vision/data/spot/daily/klines/VIABTC/5m/VIABTC-5m-2020-06-09.zip.CHECKSUM",
+      "bytes": 90,
+      "sha256": "d97052c3662ae2c3a8f28d2e2159903280d91557f1c2f40266ce3553c98c4bc0",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/VIABTC/VIABTC-5m-2020-06-10.zip",
+      "url": "https://data.binance.vision/data/spot/daily/klines/VIABTC/5m/VIABTC-5m-2020-06-10.zip",
+      "bytes": 9475,
+      "sha256": "6083dd4b7ac4f16f4d0f3bd39edd9535cf6e0969c4d54a109ad0f80612e6b317",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/VIABTC/VIABTC-5m-2020-06-10.zip.CHECKSUM",
+      "url": "https://data.binance.vision/data/spot/daily/klines/VIABTC/5m/VIABTC-5m-2020-06-10.zip.CHECKSUM",
+      "bytes": 90,
+      "sha256": "143e4fbf5aa3affd11138eb393b4a23843e76971469c6de2d98123d8122528e9",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/VIABTC/VIABTC-5m-2020-06-11.zip",
+      "url": "https://data.binance.vision/data/spot/daily/klines/VIABTC/5m/VIABTC-5m-2020-06-11.zip",
+      "bytes": 8832,
+      "sha256": "4d90f79bfc4c2781c27b1b9834f0d385eba32925ebed9e4cda754de367b07776",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/binance/VIABTC/VIABTC-5m-2020-06-11.zip.CHECKSUM",
+      "url": "https://data.binance.vision/data/spot/daily/klines/VIABTC/5m/VIABTC-5m-2020-06-11.zip.CHECKSUM",
+      "bytes": 90,
+      "sha256": "168885fc300b688d51b77ec07cbdc6f8a99c3e9b93aa32a04a275d2470bbf0bb",
+      "license": "CC-BY-NC-SA-4.0 + Binance Vision Dataset Terms"
+    },
+    {
+      "path": "raw/meme2026/meme_coin-main.zip",
+      "url": "https://zenodo.org/api/records/17830944/files/meme_coin-main.zip/content",
+      "bytes": 26446048,
+      "sha256": "4ef60d79cc70bc14287002d0a97a127ca46757690bae075801858356489571c9",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "raw/meme2026/zenodo_record.json",
+      "url": "https://zenodo.org/api/records/17830944",
+      "bytes": 12096,
+      "sha256": "acda8c7ba404768f2224a7a409cf20e0132bad8be8fc6b29ee1e64b4cfcf058c",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "path": "raw/sapienza/LICENSE",
+      "url": "https://raw.githubusercontent.com/SystemsLab-Sapienza/pump-and-dump-dataset/d71250d4cb055dde2d415c8cba38a0dcd6eb6e16/LICENSE",
+      "bytes": 1076,
+      "sha256": "e81234099e71b667dae61b2580d49b7bd567d61492f909fd376bc2cca1e2a858",
+      "license": "MIT"
+    },
+    {
+      "path": "raw/sapienza/pump_telegram.csv",
+      "url": "https://raw.githubusercontent.com/SystemsLab-Sapienza/pump-and-dump-dataset/d71250d4cb055dde2d415c8cba38a0dcd6eb6e16/pump_telegram.csv",
+      "bytes": 36788,
+      "sha256": "7ca4d2ac21b02888a269af6dd8a56415074d86f1e5e51e5de314f536a6a3b593",
+      "license": "MIT"
+    }
+  ]
+}

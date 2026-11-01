@@ -1,3 +1,6 @@
+> **金融异常数据已下载并整理：** 53 条连续行情序列、98,961 行，包含研究者算法区间标签、公告弱标签和近期无标签行情。
+> [数据说明、许可与运行方式](data/financial_anomalies/README.md) · [数据目录](data/financial_anomalies/catalog.csv)
+
 > **本仓库新增：Kronos 异常检测扩展。** 基于滚动单步预测的标准化平方误差，
 > 使用独立校准段拟合固定 POT 阈值，输出维度诊断与时间戳异常标签。
 > 支持 Kronos-mini、本地离线权重、CSV/JSON 与可视化输出。

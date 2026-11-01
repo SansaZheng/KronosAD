@@ -1,0 +1,30 @@
+{
+  "raw_files": 137,
+  "raw_bytes": 27050883,
+  "sapienza_source_events": 1110,
+  "selected_events": 12,
+  "meme_source_hourly_files": 584,
+  "meme_source_hourly_rows": 331865,
+  "meme_author_events": 91,
+  "download_failures": 0,
+  "datasets": {
+    "meme2026": {
+      "series": 39,
+      "rows": 80204,
+      "positive_rows": 323,
+      "runnable_series": 39
+    },
+    "recent_binance": {
+      "series": 2,
+      "rows": 1728,
+      "positive_rows": 0,
+      "runnable_series": 2
+    },
+    "sapienza_binance": {
+      "series": 12,
+      "rows": 17029,
+      "positive_rows": 84,
+      "runnable_series": 12
+    }
+  }
+}

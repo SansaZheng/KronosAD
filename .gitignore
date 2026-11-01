@@ -79,3 +79,6 @@ tmp/
 anomaly_results/
 weights/
 *.safetensors
+
+# Interrupted public-data downloads
+*.partial

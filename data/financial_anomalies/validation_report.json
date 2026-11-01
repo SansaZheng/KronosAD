@@ -1,0 +1,300 @@
+{
+  "date": "2026-11-02",
+  "tests": "27 passed",
+  "validated_raw_files": 137,
+  "validated_series": 53,
+  "validated_prepared_rows": 98961,
+  "offline_rebuild_byte_identical": true,
+  "environment": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.15.3",
+    "torch": "2.6.0",
+    "huggingface_hub": "0.33.1"
+  },
+  "model": "NeoQuasar/Kronos-mini",
+  "tokenizer": "NeoQuasar/Kronos-Tokenizer-2k",
+  "smoke_runs": [
+    {
+      "dataset": "sapienza",
+      "series_file": "data/financial_anomalies/prepared/sapienza_binance/AMBBTC_2019-01-01_s00.csv.gz",
+      "features": [
+        "open",
+        "high",
+        "low",
+        "close",
+        "volume",
+        "amount"
+      ],
+      "split": {
+        "warmup": [
+          0,
+          64
+        ],
+        "calibration": [
+          64,
+          500
+        ],
+        "test": [
+          500,
+          1108
+        ],
+        "end_exclusive": true
+      },
+      "summary": {
+        "calibration_rows": 436,
+        "calibration_alarm_fraction_in_sample": 0.006880733944954129,
+        "test_rows": 608,
+        "test_anomaly_count": 3,
+        "test_alarm_fraction": 0.004934210526315789
+      },
+      "seed": 42,
+      "thresholds": {
+        "open": {
+          "threshold": 7.849067856046091,
+          "initial_threshold": 0.897026926277219,
+          "shape": 0.4289617519964122,
+          "scale": 0.6195019678888529,
+          "n_calibration": 436,
+          "n_peaks": 44,
+          "initial_quantile": 0.9,
+          "risk": 0.0016666666666666668
+        },
+        "high": {
+          "threshold": 13.978457892126128,
+          "initial_threshold": 0.979991156769359,
+          "shape": 0.49645746555832215,
+          "scale": 0.9676218618435982,
+          "n_calibration": 436,
+          "n_peaks": 44,
+          "initial_quantile": 0.9,
+          "risk": 0.0016666666666666668
+        },
+        "low": {
+          "threshold": 9.370138037198597,
+          "initial_threshold": 1.2993637094331065,
+          "shape": 0.20493703603814106,
+          "scale": 1.2543812595529356,
+          "n_calibration": 436,
+          "n_peaks": 44,
+          "initial_quantile": 0.9,
+          "risk": 0.0016666666666666668
+        },
+        "close": {
+          "threshold": 11.42557135841285,
+          "initial_threshold": 1.217852590000283,
+          "shape": 0.522233728571097,
+          "scale": 0.7084371564674057,
+          "n_calibration": 436,
+          "n_peaks": 44,
+          "initial_quantile": 0.9,
+          "risk": 0.0016666666666666668
+        },
+        "volume": {
+          "threshold": 507.3654011841329,
+          "initial_threshold": 1.9528414453777112,
+          "shape": 1.1434677743129735,
+          "scale": 5.346572278173294,
+          "n_calibration": 436,
+          "n_peaks": 44,
+          "initial_quantile": 0.9,
+          "risk": 0.0016666666666666668
+        },
+        "amount": {
+          "threshold": 553.7197146344007,
+          "initial_threshold": 1.9650003007236911,
+          "shape": 1.185077904537619,
+          "scale": 5.092301401262011,
+          "n_calibration": 436,
+          "n_peaks": 44,
+          "initial_quantile": 0.9,
+          "risk": 0.0016666666666666668
+        }
+      }
+    },
+    {
+      "dataset": "meme",
+      "series_file": "data/financial_anomalies/prepared/meme2026/bsc_0xfebe8c1ed424dbf688551d4e2267e7a53698f0aa_s00.csv.gz",
+      "features": [
+        "open",
+        "high",
+        "low",
+        "close",
+        "amount"
+      ],
+      "split": {
+        "warmup": [
+          0,
+          64
+        ],
+        "calibration": [
+          64,
+          500
+        ],
+        "test": [
+          500,
+          520
+        ],
+        "end_exclusive": true
+      },
+      "summary": {
+        "calibration_rows": 436,
+        "calibration_alarm_fraction_in_sample": 0.006880733944954129,
+        "test_rows": 20,
+        "test_anomaly_count": 0,
+        "test_alarm_fraction": 0.0
+      },
+      "seed": 42,
+      "thresholds": {
+        "open": {
+          "threshold": 2.259151484800226,
+          "initial_threshold": 0.11041580973991082,
+          "shape": 0.6487284694295512,
+          "scale": 0.11886128461056575,
+          "n_calibration": 436,
+          "n_peaks": 44,
+          "initial_quantile": 0.9,
+          "risk": 0.002
+        },
+        "high": {
+          "threshold": 25.50945193750437,
+          "initial_threshold": 0.32992644142127503,
+          "shape": 1.264274656626208,
+          "scale": 0.22541055169942142,
+          "n_calibration": 436,
+          "n_peaks": 44,
+          "initial_quantile": 0.9,
+          "risk": 0.002
+        },
+        "low": {
+          "threshold": 5.062818051585387,
+          "initial_threshold": 0.32942059375099075,
+          "shape": 0.6284461210010601,
+          "scale": 0.27659948278659363,
+          "n_calibration": 436,
+          "n_peaks": 44,
+          "initial_quantile": 0.9,
+          "risk": 0.002
+        },
+        "close": {
+          "threshold": 8.312815783244972,
+          "initial_threshold": 0.2870952572678326,
+          "shape": 0.8684392136246162,
+          "scale": 0.23932554650438959,
+          "n_calibration": 436,
+          "n_peaks": 44,
+          "initial_quantile": 0.9,
+          "risk": 0.002
+        },
+        "amount": {
+          "threshold": 113.32183150621448,
+          "initial_threshold": 1.9326259913850221,
+          "shape": 0.9880742515502192,
+          "scale": 2.3340987179681467,
+          "n_calibration": 436,
+          "n_peaks": 44,
+          "initial_quantile": 0.9,
+          "risk": 0.002
+        }
+      }
+    },
+    {
+      "dataset": "recent",
+      "series_file": "data/financial_anomalies/prepared/recent_binance/BTCUSDT_20261029_20261031_s00.csv.gz",
+      "features": [
+        "open",
+        "high",
+        "low",
+        "close",
+        "volume",
+        "amount"
+      ],
+      "split": {
+        "warmup": [
+          0,
+          64
+        ],
+        "calibration": [
+          64,
+          500
+        ],
+        "test": [
+          500,
+          520
+        ],
+        "end_exclusive": true
+      },
+      "summary": {
+        "calibration_rows": 436,
+        "calibration_alarm_fraction_in_sample": 0.006880733944954129,
+        "test_rows": 20,
+        "test_anomaly_count": 0,
+        "test_alarm_fraction": 0.0
+      },
+      "seed": 42,
+      "thresholds": {
+        "open": {
+          "threshold": 8.793762378120118,
+          "initial_threshold": 0.058297451022810004,
+          "shape": 1.3480167225646467,
+          "scale": 0.04681449472713884,
+          "n_calibration": 436,
+          "n_peaks": 44,
+          "initial_quantile": 0.9,
+          "risk": 0.0016666666666666668
+        },
+        "high": {
+          "threshold": 50.80954224056305,
+          "initial_threshold": 0.18702528834304305,
+          "shape": 1.5426327832806062,
+          "scale": 0.1393888398127715,
+          "n_calibration": 436,
+          "n_peaks": 44,
+          "initial_quantile": 0.9,
+          "risk": 0.0016666666666666668
+        },
+        "low": {
+          "threshold": 24.486394398398055,
+          "initial_threshold": 0.17724540110150733,
+          "shape": 1.1944226896567645,
+          "scale": 0.2175545750693324,
+          "n_calibration": 436,
+          "n_peaks": 44,
+          "initial_quantile": 0.9,
+          "risk": 0.0016666666666666668
+        },
+        "close": {
+          "threshold": 31.67545625864975,
+          "initial_threshold": 0.38095039040987466,
+          "shape": 1.0759447591992808,
+          "scale": 0.41217549377195906,
+          "n_calibration": 436,
+          "n_peaks": 44,
+          "initial_quantile": 0.9,
+          "risk": 0.0016666666666666668
+        },
+        "volume": {
+          "threshold": 208.44763041523083,
+          "initial_threshold": 2.610792891231906,
+          "shape": 1.1301187497089922,
+          "scale": 2.2744085375074903,
+          "n_calibration": 436,
+          "n_peaks": 44,
+          "initial_quantile": 0.9,
+          "risk": 0.0016666666666666668
+        },
+        "amount": {
+          "threshold": 222.16699949048012,
+          "initial_threshold": 2.6003541956197465,
+          "shape": 1.1541633952353005,
+          "scale": 2.242878779157415,
+          "n_calibration": 436,
+          "n_peaks": 44,
+          "initial_quantile": 0.9,
+          "risk": 0.0016666666666666668
+        }
+      }
+    }
+  ],
+  "interpretation": "Functional verification only. Alarm count is not accuracy, true-positive count, or an F1 estimate."
+}
