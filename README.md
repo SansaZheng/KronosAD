@@ -1,3 +1,9 @@
+> **本仓库新增：Kronos 异常检测扩展。** 基于滚动单步预测的标准化平方误差，
+> 使用独立校准段拟合固定 POT 阈值，输出维度诊断与时间戳异常标签。
+> 支持 Kronos-mini、本地离线权重、CSV/JSON 与可视化输出。
+> [中文运行指南与异常定义](docs/anomaly_detection_CN.md) · [验证记录](docs/anomaly_validation.md)
+> 此功能是上游模型的研究扩展，不是原 Kronos 论文的异常检测结果。下文保留上游说明。
+
 <div align="center">
   <h2><b>Kronos: A Foundation Model for the Language of Financial Markets </b></h2>
 </div>

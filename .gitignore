@@ -74,3 +74,8 @@ venv.bak/
 temp/
 tmp/
 .python-version
+
+# Local anomaly runs and downloaded weights
+anomaly_results/
+weights/
+*.safetensors

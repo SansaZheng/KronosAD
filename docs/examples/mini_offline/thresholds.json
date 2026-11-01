@@ -1,0 +1,144 @@
+{
+  "schema_version": 1,
+  "method": "kronos_one_step_standardized_squared_residual_fixed_pot",
+  "upstream_extension": true,
+  "features": [
+    "open",
+    "high",
+    "low",
+    "close",
+    "volume",
+    "amount"
+  ],
+  "score": "((observed - predicted) / (history_population_std + epsilon)) ** 2",
+  "thresholds": {
+    "open": {
+      "threshold": 4.754360308040777,
+      "initial_threshold": 0.10493732950319065,
+      "shape": 0.9843440878883014,
+      "scale": 0.08204379226271777,
+      "n_calibration": 436,
+      "n_peaks": 44,
+      "initial_quantile": 0.9,
+      "risk": 0.0016666666666666668
+    },
+    "high": {
+      "threshold": 5.65455221772518,
+      "initial_threshold": 0.2685907444388606,
+      "shape": 0.4047689508142176,
+      "scale": 0.5112299574127751,
+      "n_calibration": 436,
+      "n_peaks": 44,
+      "initial_quantile": 0.9,
+      "risk": 0.0016666666666666668
+    },
+    "low": {
+      "threshold": 10.487038797701835,
+      "initial_threshold": 0.2271938459562497,
+      "shape": 1.008481342670933,
+      "scale": 0.1677101816202341,
+      "n_calibration": 436,
+      "n_peaks": 44,
+      "initial_quantile": 0.9,
+      "risk": 0.0016666666666666668
+    },
+    "close": {
+      "threshold": 9.137926240224882,
+      "initial_threshold": 0.48513326076679997,
+      "shape": 0.6938000102633456,
+      "scale": 0.36975594905770515,
+      "n_calibration": 436,
+      "n_peaks": 44,
+      "initial_quantile": 0.9,
+      "risk": 0.0016666666666666668
+    },
+    "volume": {
+      "threshold": 83.08620115149535,
+      "initial_threshold": 2.097203960777576,
+      "shape": 0.8578858848633,
+      "scale": 2.1185900860961264,
+      "n_calibration": 436,
+      "n_peaks": 44,
+      "initial_quantile": 0.9,
+      "risk": 0.0016666666666666668
+    },
+    "amount": {
+      "threshold": 61.335523094020694,
+      "initial_threshold": 2.2322876260448603,
+      "shape": 0.6438802791620912,
+      "scale": 2.9176131812075883,
+      "n_calibration": 436,
+      "n_peaks": 44,
+      "initial_quantile": 0.9,
+      "risk": 0.0016666666666666668
+    }
+  },
+  "epsilon": {
+    "open": 1e-05,
+    "high": 1e-05,
+    "low": 1e-05,
+    "close": 1e-05,
+    "volume": 1e-05,
+    "amount": 1e-05
+  },
+  "arguments": {
+    "csv": "tests/data/regression_input.csv",
+    "calibration_end": 500,
+    "test_end": 520,
+    "timestamp": "timestamps",
+    "features": null,
+    "lookback": 64,
+    "max_context": 2048,
+    "model": "./weights/Kronos-mini",
+    "tokenizer": "./weights/Kronos-Tokenizer-2k",
+    "model_revision": null,
+    "tokenizer_revision": null,
+    "local_files_only": true,
+    "device": "cpu",
+    "threads": 1,
+    "seed": 42,
+    "sample_count": 1,
+    "temperature": 0.6,
+    "top_p": 0.9,
+    "epsilon": [],
+    "initial_quantile": 0.9,
+    "risk": 0.01,
+    "risk_mode": "family",
+    "min_peaks": 20,
+    "output": "anomaly_results/mini_offline",
+    "plot": true
+  },
+  "versions": {
+    "numpy": "2.2.6",
+    "pandas": "2.2.2",
+    "torch": "2.6.0"
+  },
+  "split": {
+    "warmup": [
+      0,
+      64
+    ],
+    "calibration": [
+      64,
+      500
+    ],
+    "test": [
+      500,
+      520
+    ],
+    "end_exclusive": true
+  },
+  "summary": {
+    "calibration_rows": 436,
+    "calibration_alarm_fraction_in_sample": 0.006880733944954129,
+    "test_rows": 20,
+    "test_anomaly_count": 0,
+    "test_alarm_fraction": 0.0
+  },
+  "limitations": [
+    "No ground-truth labels evaluated; alarm fraction is not accuracy or F1.",
+    "Fixed POT, not dynamically updated SPOT; tail fit may fail under market drift.",
+    "Family risk uses Bonferroni allocation, not an empirical false-positive guarantee.",
+    "Prior test observations enter later contexts, including prior anomalies."
+  ]
+}
