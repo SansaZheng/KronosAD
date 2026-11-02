@@ -1,5 +1,6 @@
-> **金融异常数据已下载并整理：** 53 条连续行情序列、98,961 行，包含研究者算法区间标签、公告弱标签和近期无标签行情。
-> [数据说明、许可与运行方式](data/financial_anomalies/README.md) · [数据目录](data/financial_anomalies/catalog.csv)
+> **监督金融市场异常数据已更新：** Sapienza 人工标注交易特征、TSTR 真实操纵／非操纵价格序列、SD-FMM 带点标签派生序列。
+> [数据规模、标签含义、划分、加载方法与许可](data/supervised_financial/README.md) · [数据目录](data/supervised_financial/catalog.csv)
+> 旧的行情／弱标签数据包已移除。这些特征／单通道数据需独立监督分类器或适配器，不能直接当作 Kronos OHLC 输入。
 
 > **本仓库新增：Kronos 异常检测扩展。** 基于滚动单步预测的标准化平方误差，
 > 使用独立校准段拟合固定 POT 阈值，输出维度诊断与时间戳异常标签。
