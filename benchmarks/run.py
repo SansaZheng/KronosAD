@@ -49,8 +49,17 @@ def write_json(path, value):
 
 def run(args, name, method, seed):
     out = args.output / name / f'{method}_seed{seed}'
+    config = {'dataset': name, 'method': method, 'seed': seed, 'device': args.device,
+              'steps': args.steps, 'train_cap': args.train_cap,
+              'calibration_cap': args.calibration_cap, 'risk': args.risk,
+              'initial_quantile': args.initial_quantile, 'batch_size': args.batch_size,
+              'weights_sha256': args.weights_hash,
+              'data_manifest_sha256': digest(args.cache / name / 'manifest.json')}
     if (out / 'result.json').exists():
-        return json.loads((out / 'result.json').read_text())
+        previous = json.loads((out / 'result.json').read_text())
+        if previous.get('run_config') != config:
+            raise ValueError('Existing run has a different configuration; choose a new output directory')
+        return previous
     out.mkdir(parents=True, exist_ok=True)
     start = time.monotonic()
     xtrain, train_indices = sample(load(args.cache, name, 'train'), args.train_cap, seed)
@@ -95,7 +104,7 @@ def run(args, name, method, seed):
     labels = load(args.cache, name, 'test', targets=True)
     metrics = evaluate(labels, scores, threshold.threshold)
     manifest = json.loads((args.cache / name / 'manifest.json').read_text())
-    result = {'dataset': name, 'method': method, 'seed': seed, 'status': 'complete',
+    result = {'dataset': name, 'method': method, 'seed': seed, 'status': 'complete', 'run_config': config,
               'train_rows_used': len(train_indices), 'calibration_rows_used': len(cal_indices),
               'split_counts': manifest['splits'], 'feature_count_raw': len(manifest['features']),
               'protocol': manifest['protocol'], 'threshold': threshold.to_dict(),
@@ -128,6 +137,7 @@ def main():
     p.add_argument('--risk', type=float, default=.01)
     p.add_argument('--initial-quantile', type=float, default=.85)
     args = p.parse_args()
+    args.weights_hash = digest(args.weights / 'model.safetensors')
     args.output.mkdir(parents=True, exist_ok=True); args.output.chmod(0o700)
     if args.steps < 1 or args.train_cap < 1 or args.calibration_cap < 1 or args.batch_size < 1:
         p.error('All caps, batch size and steps must be positive')
@@ -135,7 +145,7 @@ def main():
     torch.set_num_threads(2)
     environment = {'python': platform.python_version(), 'platform': platform.platform(),
                    'packages': {v: importlib.metadata.version(v) for v in ('numpy', 'pandas', 'scipy', 'torch', 'scikit-learn', 'safetensors')},
-                   'weights_sha256': digest(args.weights / 'model.safetensors'),
+                   'weights_sha256': args.weights_hash,
                    'argv': {k: str(v) if isinstance(v, Path) else v for k, v in vars(args).items()},
                    'code_git_head': subprocess.check_output(['git', 'rev-parse', 'HEAD'], text=True).strip(),
                    'labels_used_for_training_or_thresholds': False}
