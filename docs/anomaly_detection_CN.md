@@ -1,4 +1,4 @@
-> **数据更新（2026-11-02）：** 当前下载的监督市场操纵数据见 [数据说明](../data/supervised_financial/README.md)。这些工程特征／单通道序列不能直接输入下述 OHLC CLI。本页的预测误差＋POT 方法未因此变成监督分类器；本次数据更新也没有产生新的模型检测指标。
+> **数据与实验更新（2026-11-02）：** 数据见 [数据说明](../data/supervised_financial/README.md)。工程特征／单通道序列不能直接输入下述 OHLC CLI；另新增[无监督特征自编码适配实验](unsupervised_benchmark_results_CN.md)，训练与阈值校准不使用标签。适配器绕过 tokenizer，使用单 token 冻结骨干，不是本页的原 OHLC 预测误差方法；两者结果不可混称。
 
 # 基于 Kronos 的金融时间序列异常检测
 

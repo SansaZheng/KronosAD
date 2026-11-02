@@ -22,7 +22,7 @@ def export(runs, cache, output, document):
                 for s in env['argv']['seeds']}
     records = [json.loads(p.read_text()) for p in sorted(runs.glob('*/*/result.json'))]
     found = {(r['dataset'], r['method'], r['seed']) for r in records}
-    if found != expected or any(r['status'] != 'complete' for r in records):
+    if found != expected or len(records) != len(expected) or any(r['status'] != 'complete' for r in records):
         raise ValueError(f'Incomplete or unexpected runs: missing={expected-found}, unexpected={found-expected}')
     output.mkdir(parents=True, exist_ok=False)
     # Paths do not affect scientific reproducibility and need not expose a user workspace.
@@ -31,6 +31,12 @@ def export(runs, cache, output, document):
                             'output': '.local_data/unsupervised_runs_v1_full',
                             'weights': 'weights/Kronos-mini'}[key]
     write_json(output / 'environment.json', env)
+    provenance = cache.parent / 'weights_provenance.json'
+    if provenance.exists():
+        source = json.loads(provenance.read_text())
+        if source['local_sha256'] != env['weights_sha256']:
+            raise ValueError('Weight provenance differs from experimental weights')
+        write_json(output / 'weights_provenance.json', source)
     write_json(output / 'runs.json', records)
     splits = {d: json.loads((cache / d / 'manifest.json').read_text()) for d in env['argv']['datasets']}
     write_json(output / 'splits.json', splits)
@@ -90,7 +96,7 @@ def export(runs, cache, output, document):
               '- **IEEE-CIS 仅评价官方训练表内的时间留出**，不涉及 Kaggle 官方测试成绩。未接身份表、未针对该竞赛调参；原始数据、训练缓存和逐行输出未上传。',
               '- 一个通用的固定阈值/固定步数配置可能欠拟合或对分布漂移失效。本轮是可复现的初步对照，不是经调参得到的最终性能上限；未跨数据集计算混合平均排名。', '',
               '## 可核验证据与复现', '',
-              f'- 实验代码起点：`{env["code_git_head"]}`；运行设备 `{env["argv"]["device"]}`，Python {env["python"]}，PyTorch {env["packages"]["torch"]}，scikit-learn {env["packages"]["scikit-learn"]}。',
+              f'- 实验代码起点：`{env["code_git_head"]}`；适配器设备 `{env["argv"]["device"]}`，其余预处理/Isolation Forest/POT 为 CPU；Python {env["python"]}，PyTorch {env["packages"]["torch"]}，scikit-learn {env["packages"]["scikit-learn"]}。',
               f'- Kronos-mini 权重 SHA256：`{env["weights_sha256"]}`。',
               '- [逐种子全部指标与混淆矩阵](../results/unsupervised_v1/metrics.csv) · [均值和标准差](../results/unsupervised_v1/summary.csv) · [完整聚合运行记录、训练损失、POT 参数和评分哈希](../results/unsupervised_v1/runs.json)。',
               '- [各分区样本数、标签组成和特征清单](../results/unsupervised_v1/splits.json) · [依赖、命令和运行环境](../results/unsupervised_v1/environment.json)。',
@@ -101,7 +107,7 @@ def export(runs, cache, output, document):
               'python -m benchmarks.report --runs .local_data/unsupervised_runs_v1_full \\',
               '  --cache .local_data/unsupervised_v1 --output results/unsupervised_v1 \\',
               '  --document docs/unsupervised_benchmark_results_CN.md', '```', '',
-              '其他设备可选 cpu/cuda；硬件差异不保证逐位相同。输出目录必须为新目录，以保留既有实验。']
+              '其他设备可选 cpu/cuda；硬件差异不保证逐位相同。报告导出目录必须为新目录；训练输出可在同配置下断点续跑，配置不同时应使用另一目录，以保留既有实验。']
     document.write_text('\n'.join(lines)+'\n')
     print(summary.to_string(index=False))
 

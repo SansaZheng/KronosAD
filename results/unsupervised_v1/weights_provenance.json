@@ -1,0 +1,17 @@
+{
+  "model": "NeoQuasar/Kronos-mini",
+  "revision": "f4e68697d9d5aed55cef5c96aabc3376bcad9f81",
+  "model_file": [
+    {
+      "rfilename": "model.safetensors",
+      "blobId": "6b1196d5c3030f595beae9dd06cf53ba578fc455",
+      "size": 16440776,
+      "lfs": {
+        "sha256": "a7d5f37e2e9fbd9891f7d7d4f72574512dd1f704fee14223e0a8cd0fbf54197c",
+        "size": 16440776,
+        "pointerSize": 133
+      }
+    }
+  ],
+  "local_sha256": "a7d5f37e2e9fbd9891f7d7d4f72574512dd1f704fee14223e0a8cd0fbf54197c"
+}

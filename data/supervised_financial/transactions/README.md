@@ -103,6 +103,6 @@ for chunk in iter_table("ibm_aml", dtype={"Account": str, "Account.1": str}):
 
 这些是交易级／图节点监督数据，不能复制成 OHLC 四列直接送入 Kronos。支付欺诈、洗钱与市场操纵分别实验，不把它们拼成一个同分布任务。
 
-这里没有训练分类器或报告检测 F1。后续应按时间、账户／用户隔离的目标明确建立划分；在训练段拟合特征处理，验证段选参数／阈值，测试段只做最终评价。TabFormer 的未来交易、Elliptic 的邻居聚合信息、交易后的余额等字段是否在检测时可用，需要在实验协议中说明。报告正类 Precision、Recall、F1、PR-AUC 与误报数量，不能仅以 Accuracy 判断效果。
+另新增[无监督异常实验](../../../docs/unsupervised_benchmark_results_CN.md)，按固定时间边界留出校准和测试，训练与 POT 阈值拟合均不使用标签；报告 Precision、Recall、F1、AP、ROC-AUC、FPR 和混淆矩阵。Kronos 特征自编码适配器与原版 OHLC 方法有区别，并设置随机骨干和 Isolation Forest 对照。具体特征及 TabFormer 未来交易、Elliptic 聚合信息等可用性限制见[实验协议](../../../docs/unsupervised_benchmark_protocol_CN.md)。
 
-上级目录的 Sapienza／TSTR／SD-FMM 研究划分不适用于这些新数据。本次保留原标签与完整文件，没有为新数据生成容易造成泄漏的随机逐行划分。
+上级目录的 Sapienza／TSTR／SD-FMM 分组不直接套用到交易数据。原标签与完整文件保持不变；本轮交易数据使用时间划分，不使用随机逐行训练／测试划分。原始受限数据及逐行实验输出不上传。

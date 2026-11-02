@@ -1,4 +1,4 @@
-> **新增无监督实验：** 已加入冻结 Kronos-mini 特征自编码适配器、随机骨干对照及 Isolation Forest。训练和固定 POT 校准不使用异常标签。适配器是新研究方法，单 token 特征重构，不是原版 OHLC 预测检测器。见[实验协议](docs/unsupervised_benchmark_protocol_CN.md)。
+> **无监督实验已完成：9 组数据、10 个任务、3 种方法、3 个种子，共 90 次真实运行。** [中文结果报告](docs/unsupervised_benchmark_results_CN.md) · [逐次指标与混淆矩阵](results/unsupervised_v1/metrics.csv) · [实验协议](docs/unsupervised_benchmark_protocol_CN.md)。训练和固定 POT 校准不使用异常标签，完整留出测试不抽样。新增的 Kronos-mini 特征自编码适配器为单 token 重构研究，不是原版 OHLC 预测检测器；本轮未发现稳定的预训练优势，支付欺诈和洗钱任务效果较弱。
 
 > **监督金融异常数据共 9 组：** 8 组数据随仓库存储；IEEE-CIS 官方数据已下载到本地私有目录，其规则限制公开再分发。
 > [全部数据索引](data/supervised_financial/dataset_index.csv) · [支付／反洗钱数据](data/supervised_financial/transactions/README.md) · [IEEE-CIS 本地读取说明](data/supervised_financial/transactions/IEEE_CIS_LOCAL.md) · [市场操纵数据](data/supervised_financial/README.md)

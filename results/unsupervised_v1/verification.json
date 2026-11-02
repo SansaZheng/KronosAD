@@ -1,0 +1,9 @@
+{
+  "runs_verified": 90,
+  "evaluated_labels_across_runs": 57769875,
+  "score_sha256_verified": true,
+  "confusion_matrices_independently_recomputed": true,
+  "sampling_indices_unique_and_in_bounds": true,
+  "pot_records_match_calibration_scores": true,
+  "raw_rows_in_report": false
+}

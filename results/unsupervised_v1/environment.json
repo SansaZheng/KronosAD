@@ -1,0 +1,50 @@
+{
+  "python": "3.12.14",
+  "platform": "macOS-26.2-arm64-arm-64bit",
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.2",
+    "scipy": "1.15.3",
+    "torch": "2.6.0",
+    "scikit-learn": "1.7.2",
+    "safetensors": "0.6.2"
+  },
+  "weights_sha256": "a7d5f37e2e9fbd9891f7d7d4f72574512dd1f704fee14223e0a8cd0fbf54197c",
+  "argv": {
+    "cache": ".local_data/unsupervised_v1",
+    "output": ".local_data/unsupervised_runs_v1_full",
+    "datasets": [
+      "sapienza_15S",
+      "tstr",
+      "sd_stock",
+      "sd_crypto",
+      "ulb",
+      "elliptic",
+      "paysim",
+      "tabformer",
+      "ibm_aml",
+      "ieee_cis"
+    ],
+    "methods": [
+      "isolation_forest",
+      "kronos_adapter",
+      "random_adapter"
+    ],
+    "seeds": [
+      42,
+      43,
+      44
+    ],
+    "weights": "weights/Kronos-mini",
+    "device": "mps",
+    "steps": 400,
+    "train_cap": 50000,
+    "calibration_cap": 100000,
+    "batch_size": 2048,
+    "risk": 0.01,
+    "initial_quantile": 0.85,
+    "weights_hash": "a7d5f37e2e9fbd9891f7d7d4f72574512dd1f704fee14223e0a8cd0fbf54197c"
+  },
+  "code_git_head": "c9e28a4a1751a4371f1c2465d001aaa8cbf89586",
+  "labels_used_for_training_or_thresholds": false
+}
