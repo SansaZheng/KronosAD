@@ -1,6 +1,6 @@
-> **监督金融市场异常数据已更新：** Sapienza 人工标注交易特征、TSTR 真实操纵／非操纵价格序列、SD-FMM 带点标签派生序列。
-> [数据规模、标签含义、划分、加载方法与许可](data/supervised_financial/README.md) · [数据目录](data/supervised_financial/catalog.csv)
-> 旧的行情／弱标签数据包已移除。这些特征／单通道数据需独立监督分类器或适配器，不能直接当作 Kronos OHLC 输入。
+> **监督金融异常数据现有 8 组：** Sapienza、TSTR、SD-FMM，以及新增的 ULB 信用卡欺诈、Elliptic、PaySim、IBM TabFormer、IBM AML HI-Small。
+> [全部数据索引](data/supervised_financial/dataset_index.csv) · [新增支付／反洗钱数据与读取方法](data/supervised_financial/transactions/README.md) · [市场操纵数据说明](data/supervised_financial/README.md)
+> 新增数据约 786 MB，完整文件按字节分卷保存；来源镜像与许可分别记录。IEEE-CIS 按用户要求跳过需登录的数据。本仓库尚未为这些交易特征添加 Kronos 输入适配器。
 
 > **本仓库新增：Kronos 异常检测扩展。** 基于滚动单步预测的标准化平方误差，
 > 使用独立校准段拟合固定 POT 阈值，输出维度诊断与时间戳异常标签。
