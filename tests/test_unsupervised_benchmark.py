@@ -80,3 +80,13 @@ def test_adapter_freezes_backbone_but_trains_input(tmp_path):
     for k, v in model.backbone.state_dict().items():
         assert torch.equal(v, original[k])
     assert all(p.grad is None for p in model.backbone.parameters())
+
+
+def test_report_rejects_missing_experiments(tmp_path):
+    from benchmarks.report import export
+    runs = tmp_path / 'runs'; runs.mkdir()
+    (runs / 'environment.json').write_text(json.dumps({'argv': {
+        'datasets': ['toy'], 'methods': ['kronos_adapter'], 'seeds': [42, 43, 44]}}))
+    with pytest.raises(ValueError, match='Incomplete'):
+        export(runs, tmp_path / 'cache', tmp_path / 'report', tmp_path / 'report.md')
+    assert not (tmp_path / 'report').exists()
