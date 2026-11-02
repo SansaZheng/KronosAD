@@ -1,6 +1,6 @@
 # 金融市场操纵监督学习数据
 
-> **扩充更新（2026-11-02）：** 按用户给定清单，新增 ULB、Elliptic、PaySim、IBM TabFormer、IBM AML HI-Small 五组支付／反洗钱数据；详情见 [新增数据说明](transactions/README.md)，全部八组数据见 [dataset_index.csv](dataset_index.csv)。IEEE-CIS 本轮按用户要求跳过需登录的下载入口。下文继续描述原三组市场操纵数据，其规模统计与研究划分保持原有范围。
+> **扩充更新（2026-11-02）：** 按用户给定清单，新增 ULB、Elliptic、PaySim、IBM TabFormer、IBM AML HI-Small 五组支付／反洗钱数据；详情见 [新增数据说明](transactions/README.md)，原八组及本地 IEEE-CIS 的索引见 [dataset_index.csv](dataset_index.csv)。IEEE-CIS 现已在用户登录并确认规则后下载到本地，受规则限制不上传原始数据，见 [本地读取说明](transactions/IEEE_CIS_LOCAL.md)。下文继续描述原三组市场操纵数据，其规模统计与研究划分保持原有范围。
 
 检索与下载日期：**2026-11-02**。本目录关注证券／加密资产交易中的市场操纵，优先保留作者发布的人工标注与原始标签。它不包含信用卡盗刷、支付欺诈或我们根据价格涨跌生成的伪标签。
 

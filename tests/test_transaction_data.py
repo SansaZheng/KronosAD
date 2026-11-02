@@ -57,12 +57,14 @@ def test_original_csv_headers_and_label_columns_survive_byte_splitting(asset, ta
     assert set(map_labels(dataset, frame[target])) <= {-1, 0, 1}
 
 
-def test_complete_file_counts_and_skipped_competition_are_explicit():
+def test_complete_public_file_counts_and_local_only_competition_are_explicit():
     catalog = json.loads((ROOT / "catalog.json").read_text())
     downloaded = {d["id"]: d for d in catalog if d["status"] == "downloaded"}
     assert set(downloaded) == {"ulb", "elliptic", "paysim", "tabformer", "ibm_aml"}
     assert downloaded["paysim"]["rows"] == 6362620
     assert downloaded["tabformer"]["positive_labels"] == 29757
     assert downloaded["ibm_aml"]["positive_labels"] == 5177
-    skipped = next(d for d in catalog if d["id"] == "ieee_cis")
-    assert skipped["status"] == "skipped_requires_login" and skipped["rows"] is None
+    restricted = next(d for d in catalog if d["id"] == "ieee_cis")
+    assert restricted["status"] == "local_only_restricted"
+    assert restricted["rows"] == 590540 and restricted["positive_labels"] == 20663
+    assert restricted["raw_data_in_repository"] is False

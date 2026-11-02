@@ -91,7 +91,7 @@ def asset_info(asset_id, root=ROOT):
     for asset in manifest(root)["assets"]:
         if asset["id"] == asset_id:
             return asset
-    raise ValueError(f"Unknown asset {asset_id!r}; IEEE-CIS was not downloaded")
+    raise ValueError(f"Unknown public asset {asset_id!r}; restricted IEEE-CIS uses ieee_cis_local.py")
 
 
 def part_paths(asset, root):

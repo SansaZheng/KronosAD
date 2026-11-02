@@ -74,13 +74,19 @@
     "name": "IEEE-CIS Fraud Detection",
     "domain": "online payments",
     "nature": "real anonymized",
-    "scope": "not downloaded: user requested skipping login-required data",
-    "rows": null,
-    "positive_labels": null,
-    "unknown_labels": null,
-    "label": "isFraud (training labels only)",
-    "data_license": "competition-specific terms; not accepted",
-    "status": "skipped_requires_login",
-    "primary_url": "https://www.kaggle.com/competitions/ieee-fraud-detection/data"
+    "scope": "official five-file ZIP downloaded locally; raw data not redistributed under competition rule 7.B",
+    "rows": 590540,
+    "positive_labels": 20663,
+    "unknown_labels": 506691,
+    "label": "isFraud on training transactions only; official test has no public truth",
+    "data_license": "Subject to Competition Rules 7.A and 7.B",
+    "status": "local_only_restricted",
+    "primary_url": "https://www.kaggle.com/competitions/ieee-fraud-detection/data",
+    "raw_data_in_repository": false,
+    "test_rows": 506691,
+    "test_truth_labels_available": false,
+    "archive_bytes": 123856947,
+    "documentation": "IEEE_CIS_LOCAL.md",
+    "verified_date": "2026-11-02"
   }
 ]

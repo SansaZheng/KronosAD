@@ -82,3 +82,9 @@ weights/
 
 # Interrupted public-data downloads
 *.partial
+
+# Restricted competition downloads and local-only dataset reports
+private_data/
+.local_data/
+ieee-fraud-detection.zip
+**/ieee_cis/*.csv

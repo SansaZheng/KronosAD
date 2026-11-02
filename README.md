@@ -1,6 +1,6 @@
-> **监督金融异常数据现有 8 组：** Sapienza、TSTR、SD-FMM，以及新增的 ULB 信用卡欺诈、Elliptic、PaySim、IBM TabFormer、IBM AML HI-Small。
-> [全部数据索引](data/supervised_financial/dataset_index.csv) · [新增支付／反洗钱数据与读取方法](data/supervised_financial/transactions/README.md) · [市场操纵数据说明](data/supervised_financial/README.md)
-> 新增数据约 786 MB，完整文件按字节分卷保存；来源镜像与许可分别记录。IEEE-CIS 按用户要求跳过需登录的数据。本仓库尚未为这些交易特征添加 Kronos 输入适配器。
+> **监督金融异常数据共 9 组：** 8 组数据随仓库存储；IEEE-CIS 官方数据已下载到本地私有目录，其规则限制公开再分发。
+> [全部数据索引](data/supervised_financial/dataset_index.csv) · [支付／反洗钱数据](data/supervised_financial/transactions/README.md) · [IEEE-CIS 本地读取说明](data/supervised_financial/transactions/IEEE_CIS_LOCAL.md) · [市场操纵数据](data/supervised_financial/README.md)
+> 仓库存储的数据约 814 MB，较大文件按字节分卷保存。IEEE-CIS 原始 ZIP／CSV 不在 Git 中；仓库只包含该数据的获取说明、总体统计和校验／读取工具。现有 Kronos 接口仍要求真实 OHLC 输入。
 
 > **本仓库新增：Kronos 异常检测扩展。** 基于滚动单步预测的标准化平方误差，
 > 使用独立校准段拟合固定 POT 阈值，输出维度诊断与时间戳异常标签。

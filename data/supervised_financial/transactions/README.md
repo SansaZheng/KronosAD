@@ -1,6 +1,6 @@
 # 支付欺诈与反洗钱监督数据
 
-本轮按用户给出的数据表扩展到支付和反洗钱领域。下载／核验日期：**2026-11-02**。这里实际包含五组数据；IEEE-CIS 按用户要求跳过需登录的下载入口。原有 Sapienza、TSTR、SD-FMM 继续保留，全部数据索引见上级 [dataset_index.csv](../dataset_index.csv)。
+本轮按用户给出的数据表扩展到支付和反洗钱领域。下载／核验日期：**2026-11-02**。这里随仓库实际分发五组数据；IEEE-CIS 现已另行下载到本地，其竞赛规则限制公开再分发。原有 Sapienza、TSTR、SD-FMM 继续保留（共八组随仓库存储，另有一组仅本地），全部数据索引见上级 [dataset_index.csv](../dataset_index.csv)。
 
 ## 下载内容与实际统计
 
@@ -11,7 +11,7 @@
 | PaySim | 社区镜像中的完整 Kaggle 规模 CSV，全部 11 列 | 6,362,620 | 8,213 | 合成 |
 | IBM TabFormer | IBM Git LFS 原始完整 `transactions.tgz`；实际 CSV 有 15 列 | 24,386,900 | 29,757 | 合成 |
 | IBM AML HI-Small | 社区镜像中的 HI-Small 交易、账户、模式三份完整文件 | 5,078,345 笔交易；518,581 行账户 | 5,177 | 合成 |
-| IEEE-CIS Fraud Detection | **未下载**：需要 Kaggle 登录和竞赛规则确认；用户选择本轮跳过 | — | — | 原数据为匿名化业务数据 |
+| IEEE-CIS Fraud Detection | **已下载，仅本地**：完整五个官方 CSV，参见 [本地说明](IEEE_CIS_LOCAL.md) | 590,540 条带标签训练交易；506,691 条无标签测试交易 | 20,663（训练集） | 真实、匿名化业务数据 |
 
 “HI-Small 完整”指该发布子集的三个文件全部下载，不代表 IBM AML 的全部 HI／LI、Small／Medium／Large 版本。PaySim 是作者为公开发布而缩小后的模拟数据，不是支付公司的原始日志。上述统计来自实际文件扫描，不是论文中的近似数量。
 
