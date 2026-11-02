@@ -1,3 +1,5 @@
+> **新增无监督实验：** 已加入冻结 Kronos-mini 特征自编码适配器、随机骨干对照及 Isolation Forest。训练和固定 POT 校准不使用异常标签。适配器是新研究方法，单 token 特征重构，不是原版 OHLC 预测检测器。见[实验协议](docs/unsupervised_benchmark_protocol_CN.md)。
+
 > **监督金融异常数据共 9 组：** 8 组数据随仓库存储；IEEE-CIS 官方数据已下载到本地私有目录，其规则限制公开再分发。
 > [全部数据索引](data/supervised_financial/dataset_index.csv) · [支付／反洗钱数据](data/supervised_financial/transactions/README.md) · [IEEE-CIS 本地读取说明](data/supervised_financial/transactions/IEEE_CIS_LOCAL.md) · [市场操纵数据](data/supervised_financial/README.md)
 > 仓库存储的数据约 814 MB，较大文件按字节分卷保存。IEEE-CIS 原始 ZIP／CSV 不在 Git 中；仓库只包含该数据的获取说明、总体统计和校验／读取工具。现有 Kronos 接口仍要求真实 OHLC 输入。
