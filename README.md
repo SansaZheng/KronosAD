@@ -1,4 +1,4 @@
-> **Knob 实验（2026-11-24）：** 把 LLM 知识边界论文的 Knob 方法迁移到 Kronos-mini，检验它能否通过调节预测平滑度改进拉盘检测。结论：旋钮不紧凑、对平滑度控制很弱、对检测无显著影响；限制检测的是残差归一化的尺度下限。见 [中文报告 v1](docs/knob_smoothness_report_CN_v1.md) · [English report v1](docs/knob_smoothness_report_EN_v1.md)。
+> **Knob 实验（2026-11-24）：** 把 LLM 知识边界论文的 Knob 方法迁移到 Kronos-mini，检验它能否通过调节预测平滑度改进拉盘检测。结论：旋钮不紧凑、对平滑度控制很弱、对检测无显著影响；限制检测的是残差归一化的尺度下限;加尺度下限并把量价分开打分后,拉盘检测 AP 由 0.65% 升到 15.6%。见 [中文报告 v2](docs/knob_smoothness_report_CN_v2.md) · [English report v2](docs/knob_smoothness_report_EN_v2.md)(v1 保留)。
 
 > **无监督实验已完成：9 组数据、10 个任务、3 种方法、3 个种子，共 90 次真实运行。** [中文结果报告](docs/unsupervised_benchmark_results_CN.md) · [逐次指标与混淆矩阵](results/unsupervised_v1/metrics.csv) · [实验协议](docs/unsupervised_benchmark_protocol_CN.md)。训练和固定 POT 校准不使用异常标签，完整留出测试不抽样。新增的 Kronos-mini 特征自编码适配器为单 token 重构研究，不是原版 OHLC 预测检测器；本轮未发现稳定的预训练优势，支付欺诈和洗钱任务效果较弱。
 

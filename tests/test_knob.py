@@ -145,3 +145,18 @@ def test_weighted_recall_at_fpr():
     w = np.array([1.0, 10, 1, 10, 10, 10, 10, 10, 10, 10])
     assert recall_at_fpr(score, y, w, 0.125) == 1.0   # threshold at the first negative's score excluded
     assert recall_at_fpr(score, y, w, 0.01) == 0.5
+
+
+def test_score_improvement_helpers():
+    from knob.improve import amount_score, price_score, unit
+    p = {'kronos/err_price': np.array([[0.02, 0.10, 0.0, 0.05], [0.0, 0.01, 0.0, 0.0]]),
+         'sigma_price': np.array([[0.05, 0.05, 0.05, 0.05], [0.0, 1e-6, 0.0, 0.0]]), 'series': np.array([0.01, 0.0]),
+         'market': np.array([[0.04], [0.0]]), 'kronos/err_amount': np.array([3.0, 0.0]), 'sigma_amount': np.array([1.0, 0.0])}
+    assert np.allclose(price_score(p, 'kronos', 'window', np.inf), [0.10, 0.01])
+    assert price_score(p, 'kronos', 'window', 1e-9)[1] > price_score(p, 'kronos', 'window', 1e-9)[0]      # no floor: quiet tick wins
+    assert price_score(p, 'kronos', 'window', 0.3)[0] > price_score(p, 'kronos', 'window', 0.3)[1]        # floor restores order
+    assert np.allclose(price_score(p, 'kronos', 'series', 0.01), [5.0, 1.0])
+    assert np.allclose(price_score(p, 'kronos', 'window', np.inf, lam=1.0), [0.06, 0.01])                  # market subtracted, clipped at 0
+    assert np.allclose(amount_score(p, 'kronos', 1.0), [1.5, 0.0])
+    y, w, ref = np.array([0, 0, 0, 1]), np.ones(4), np.array([1.0, 2.0, 4.0, 99.0])
+    assert np.allclose(unit(np.array([4.0]), ref, y, w), np.log(2.0))
