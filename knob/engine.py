@@ -30,6 +30,17 @@ def load_models(weights):
     return out
 
 
+def window_ref(ctx):
+    """[B, 1, 6] divisors: window mean close for OHLC, window mean volume / amount (1 if zero)."""
+    ref = np.ones((len(ctx), 1, 6))
+    price = ctx[:, :, 3].mean(1)
+    ref[:, 0, :4] = np.where(price > 0, price, 1.0)[:, None]
+    for j in (4, 5):
+        m = ctx[:, :, j].mean(1)
+        ref[:, 0, j] = np.where(m > 0, m, 1.0)
+    return ref
+
+
 def normalise(bars):
     """bars: [B, L+1, 6] raw OHLCVA, the last row is the bar to score.
 
@@ -40,13 +51,7 @@ def normalise(bars):
     (mean, std + eps) of the rescaled context, which map normalised values back to price-relative units.
     """
     x = np.asarray(bars, dtype=np.float64)
-    ctx = x[:, :-1]
-    ref = np.ones((len(x), 1, 6))
-    price = ctx[:, :, 3].mean(1)
-    ref[:, 0, :4] = np.where(price > 0, price, 1.0)[:, None]
-    for j in (4, 5):
-        m = ctx[:, :, j].mean(1)
-        ref[:, 0, j] = np.where(m > 0, m, 1.0)
+    ref = window_ref(x[:, :-1])
     x = x/ref
     mean, std = x[:, :-1].mean(1, keepdims=True), x[:, :-1].std(1, keepdims=True)
     xn = (x - mean)/(std + EPS)

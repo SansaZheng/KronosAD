@@ -160,3 +160,26 @@ def test_score_improvement_helpers():
     assert np.allclose(amount_score(p, 'kronos', 1.0), [1.5, 0.0])
     y, w, ref = np.array([0, 0, 0, 1]), np.ones(4), np.array([1.0, 2.0, 4.0, 99.0])
     assert np.allclose(unit(np.array([4.0]), ref, y, w), np.log(2.0))
+
+
+def test_cached_multi_step_paths_match_official_forward(setup):
+    from knob.paths import PathSampler
+    tok, model, bars, stamps = setup
+    H, N = 4, 2
+    x = torch.from_numpy(normalise(bars)[0])[:, :-1]
+    fut = torch.from_numpy(np.stack([np.zeros((B, H - 1)), (np.arange(H - 1) + L) % 24*np.ones((B, 1)), np.ones((B, H - 1)),
+                                     np.ones((B, H - 1)), np.ones((B, H - 1))], -1).astype(np.float32))
+    torch.manual_seed(3)
+    f1, f2 = torch.randint(0, 16, (H, N, B)), torch.randint(0, 16, (H, N, B))
+    paths, logs = PathSampler(tok, model, samples=N, horizon=H)(x, stamps, fut, forced=(f1, f2), return_logits=True)
+    s1, s2 = tok.encode(x, half=True)
+    for n in range(N):
+        t1, t2 = torch.cat([s1, f1[:, n].T], 1), torch.cat([s2, f2[:, n].T], 1)
+        st = torch.cat([torch.from_numpy(stamps), fut], 1)
+        lg, ctx = model.decode_s1(t1[:, :-1], t2[:, :-1], st)
+        decoded = tok.decode([t1, t2], half=True)
+        for j in range(H):
+            assert torch.allclose(logs[j][0][n], lg[:, L - 1 + j], atol=1e-4)
+            ref2 = model.decode_s2(ctx[:, :L + j], t1[:, L + j:L + j + 1])[:, -1]
+            assert torch.allclose(logs[j][1][n], ref2, atol=1e-4)
+            assert torch.allclose(paths[n, :, j], decoded[:, L + j], atol=1e-4)
