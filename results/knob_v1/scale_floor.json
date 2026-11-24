@@ -1,0 +1,581 @@
+{
+ "floors": [
+  0.0,
+  0.001,
+  0.003,
+  0.01,
+  0.03,
+  0.1,
+  0.3
+ ],
+ "metrics": {
+  "calibration": {
+   "kronos/price/0": {
+    "ap": 0.08622895930123863,
+    "auroc": 0.9446376344085934,
+    "recall_fpr1": 0.6774193548387096,
+    "recall_fpr01": 0.0967741935483871,
+    "subtle_recall_fpr1": 0.3870967741935484,
+    "subtle_miss_fpr1": 0.6129032258064516
+   },
+   "kronos/all/0": {
+    "ap": 0.024166373064442727,
+    "auroc": 0.9509704301075204,
+    "recall_fpr1": 0.7258064516129032,
+    "recall_fpr01": 0.0967741935483871,
+    "subtle_recall_fpr1": 0.5161290322580645,
+    "subtle_miss_fpr1": 0.4838709677419355
+   },
+   "kronos/price/0.001": {
+    "ap": 0.08710919857276771,
+    "auroc": 0.9451956989247225,
+    "recall_fpr1": 0.7096774193548387,
+    "recall_fpr01": 0.0967741935483871,
+    "subtle_recall_fpr1": 0.45161290322580644,
+    "subtle_miss_fpr1": 0.5483870967741935
+   },
+   "kronos/all/0.001": {
+    "ap": 0.02808778319214915,
+    "auroc": 0.9520209677419291,
+    "recall_fpr1": 0.7258064516129032,
+    "recall_fpr01": 0.1774193548387097,
+    "subtle_recall_fpr1": 0.5161290322580645,
+    "subtle_miss_fpr1": 0.4838709677419355
+   },
+   "kronos/price/0.003": {
+    "ap": 0.08880072904628968,
+    "auroc": 0.9455989247311741,
+    "recall_fpr1": 0.7096774193548387,
+    "recall_fpr01": 0.1774193548387097,
+    "subtle_recall_fpr1": 0.45161290322580644,
+    "subtle_miss_fpr1": 0.5483870967741935
+   },
+   "kronos/all/0.003": {
+    "ap": 0.030752285671420923,
+    "auroc": 0.9529080645161229,
+    "recall_fpr1": 0.7096774193548387,
+    "recall_fpr01": 0.3387096774193548,
+    "subtle_recall_fpr1": 0.4838709677419355,
+    "subtle_miss_fpr1": 0.5161290322580645
+   },
+   "kronos/price/0.01": {
+    "ap": 0.09721513505084083,
+    "auroc": 0.9461483870967655,
+    "recall_fpr1": 0.7258064516129032,
+    "recall_fpr01": 0.25806451612903225,
+    "subtle_recall_fpr1": 0.4838709677419355,
+    "subtle_miss_fpr1": 0.5161290322580645
+   },
+   "kronos/all/0.01": {
+    "ap": 0.03222486241380109,
+    "auroc": 0.9544188172042951,
+    "recall_fpr1": 0.7096774193548387,
+    "recall_fpr01": 0.3387096774193548,
+    "subtle_recall_fpr1": 0.4838709677419355,
+    "subtle_miss_fpr1": 0.5161290322580645
+   },
+   "kronos/price/0.03": {
+    "ap": 0.13489098705640246,
+    "auroc": 0.9457860215053682,
+    "recall_fpr1": 0.7258064516129032,
+    "recall_fpr01": 0.4838709677419355,
+    "subtle_recall_fpr1": 0.4838709677419355,
+    "subtle_miss_fpr1": 0.5161290322580645
+   },
+   "kronos/all/0.03": {
+    "ap": 0.032462433557753016,
+    "auroc": 0.9559736559139729,
+    "recall_fpr1": 0.7419354838709677,
+    "recall_fpr01": 0.3387096774193548,
+    "subtle_recall_fpr1": 0.5483870967741935,
+    "subtle_miss_fpr1": 0.4516129032258065
+   },
+   "kronos/price/0.1": {
+    "ap": 0.23499589903458512,
+    "auroc": 0.9442741935483795,
+    "recall_fpr1": 0.7580645161290323,
+    "recall_fpr01": 0.5483870967741935,
+    "subtle_recall_fpr1": 0.5161290322580645,
+    "subtle_miss_fpr1": 0.4838709677419355
+   },
+   "kronos/all/0.1": {
+    "ap": 0.032775340267376,
+    "auroc": 0.9551575268817154,
+    "recall_fpr1": 0.7258064516129032,
+    "recall_fpr01": 0.3387096774193548,
+    "subtle_recall_fpr1": 0.5483870967741935,
+    "subtle_miss_fpr1": 0.4516129032258065
+   },
+   "kronos/price/0.3": {
+    "ap": 0.3795577073401745,
+    "auroc": 0.9425268817204229,
+    "recall_fpr1": 0.7096774193548387,
+    "recall_fpr01": 0.5483870967741935,
+    "subtle_recall_fpr1": 0.41935483870967744,
+    "subtle_miss_fpr1": 0.5806451612903225
+   },
+   "kronos/all/0.3": {
+    "ap": 0.033496846807291314,
+    "auroc": 0.9519725806451566,
+    "recall_fpr1": 0.7258064516129032,
+    "recall_fpr01": 0.3870967741935484,
+    "subtle_recall_fpr1": 0.5483870967741935,
+    "subtle_miss_fpr1": 0.4516129032258065
+   },
+   "persistence/price/0": {
+    "ap": 0.08596647413921003,
+    "auroc": 0.944056989247303,
+    "recall_fpr1": 0.6612903225806451,
+    "recall_fpr01": 0.0967741935483871,
+    "subtle_recall_fpr1": 0.3548387096774194,
+    "subtle_miss_fpr1": 0.6451612903225806
+   },
+   "persistence/all/0": {
+    "ap": 0.02416009159665436,
+    "auroc": 0.948387096774186,
+    "recall_fpr1": 0.7419354838709677,
+    "recall_fpr01": 0.0967741935483871,
+    "subtle_recall_fpr1": 0.5161290322580645,
+    "subtle_miss_fpr1": 0.4838709677419355
+   },
+   "persistence/price/0.001": {
+    "ap": 0.08683605662221655,
+    "auroc": 0.9447258064516042,
+    "recall_fpr1": 0.6774193548387096,
+    "recall_fpr01": 0.0967741935483871,
+    "subtle_recall_fpr1": 0.3870967741935484,
+    "subtle_miss_fpr1": 0.6129032258064516
+   },
+   "persistence/all/0.001": {
+    "ap": 0.02807054874032903,
+    "auroc": 0.9492688172042938,
+    "recall_fpr1": 0.7419354838709677,
+    "recall_fpr01": 0.1774193548387097,
+    "subtle_recall_fpr1": 0.5161290322580645,
+    "subtle_miss_fpr1": 0.4838709677419355
+   },
+   "persistence/price/0.003": {
+    "ap": 0.0885691970424542,
+    "auroc": 0.9454645161290237,
+    "recall_fpr1": 0.6774193548387096,
+    "recall_fpr01": 0.1774193548387097,
+    "subtle_recall_fpr1": 0.3870967741935484,
+    "subtle_miss_fpr1": 0.6129032258064516
+   },
+   "persistence/all/0.003": {
+    "ap": 0.030736919688522716,
+    "auroc": 0.9497838709677346,
+    "recall_fpr1": 0.7258064516129032,
+    "recall_fpr01": 0.3387096774193548,
+    "subtle_recall_fpr1": 0.4838709677419355,
+    "subtle_miss_fpr1": 0.5161290322580645
+   },
+   "persistence/price/0.01": {
+    "ap": 0.09694821185620585,
+    "auroc": 0.9466569892473035,
+    "recall_fpr1": 0.7096774193548387,
+    "recall_fpr01": 0.27419354838709675,
+    "subtle_recall_fpr1": 0.41935483870967744,
+    "subtle_miss_fpr1": 0.5806451612903225
+   },
+   "persistence/all/0.01": {
+    "ap": 0.03226595561932772,
+    "auroc": 0.9503505376344016,
+    "recall_fpr1": 0.7419354838709677,
+    "recall_fpr01": 0.3387096774193548,
+    "subtle_recall_fpr1": 0.5161290322580645,
+    "subtle_miss_fpr1": 0.4838709677419355
+   },
+   "persistence/price/0.03": {
+    "ap": 0.13408644988695137,
+    "auroc": 0.9478989247311747,
+    "recall_fpr1": 0.7096774193548387,
+    "recall_fpr01": 0.5,
+    "subtle_recall_fpr1": 0.41935483870967744,
+    "subtle_miss_fpr1": 0.5806451612903225
+   },
+   "persistence/all/0.03": {
+    "ap": 0.032385786995327175,
+    "auroc": 0.9503419354838641,
+    "recall_fpr1": 0.7580645161290323,
+    "recall_fpr01": 0.3387096774193548,
+    "subtle_recall_fpr1": 0.5483870967741935,
+    "subtle_miss_fpr1": 0.4516129032258065
+   },
+   "persistence/price/0.1": {
+    "ap": 0.23505439049537374,
+    "auroc": 0.9485526881720352,
+    "recall_fpr1": 0.6612903225806451,
+    "recall_fpr01": 0.532258064516129,
+    "subtle_recall_fpr1": 0.3225806451612903,
+    "subtle_miss_fpr1": 0.6774193548387097
+   },
+   "persistence/all/0.1": {
+    "ap": 0.03263888901026064,
+    "auroc": 0.9497204301075202,
+    "recall_fpr1": 0.7258064516129032,
+    "recall_fpr01": 0.3387096774193548,
+    "subtle_recall_fpr1": 0.5483870967741935,
+    "subtle_miss_fpr1": 0.4516129032258065
+   },
+   "persistence/price/0.3": {
+    "ap": 0.378310294514468,
+    "auroc": 0.9488440860214977,
+    "recall_fpr1": 0.6774193548387096,
+    "recall_fpr01": 0.5161290322580645,
+    "subtle_recall_fpr1": 0.3548387096774194,
+    "subtle_miss_fpr1": 0.6451612903225806
+   },
+   "persistence/all/0.3": {
+    "ap": 0.03329814951987863,
+    "auroc": 0.9476569892473048,
+    "recall_fpr1": 0.7258064516129032,
+    "recall_fpr01": 0.3870967741935484,
+    "subtle_recall_fpr1": 0.5483870967741935,
+    "subtle_miss_fpr1": 0.4516129032258065
+   }
+  },
+  "test": {
+   "kronos/price/0": {
+    "ap": 0.00653321912452078,
+    "auroc": 0.9321080729167056,
+    "recall_fpr1": 0.75,
+    "recall_fpr01": 0.015625,
+    "subtle_recall_fpr1": 0.5,
+    "subtle_miss_fpr1": 0.5
+   },
+   "kronos/all/0": {
+    "ap": 0.006785679552513615,
+    "auroc": 0.9311093750000408,
+    "recall_fpr1": 0.8125,
+    "recall_fpr01": 0.015625,
+    "subtle_recall_fpr1": 0.625,
+    "subtle_miss_fpr1": 0.375
+   },
+   "kronos/price/0.001": {
+    "ap": 0.007579930612812697,
+    "auroc": 0.9290768229167071,
+    "recall_fpr1": 0.75,
+    "recall_fpr01": 0.015625,
+    "subtle_recall_fpr1": 0.5,
+    "subtle_miss_fpr1": 0.5
+   },
+   "kronos/all/0.001": {
+    "ap": 0.008366449564319547,
+    "auroc": 0.9285984375000422,
+    "recall_fpr1": 0.8125,
+    "recall_fpr01": 0.046875,
+    "subtle_recall_fpr1": 0.625,
+    "subtle_miss_fpr1": 0.375
+   },
+   "kronos/price/0.003": {
+    "ap": 0.009272125503337144,
+    "auroc": 0.926500260416709,
+    "recall_fpr1": 0.75,
+    "recall_fpr01": 0.0625,
+    "subtle_recall_fpr1": 0.5,
+    "subtle_miss_fpr1": 0.5
+   },
+   "kronos/all/0.003": {
+    "ap": 0.010498383182041913,
+    "auroc": 0.9277531250000428,
+    "recall_fpr1": 0.8125,
+    "recall_fpr01": 0.09375,
+    "subtle_recall_fpr1": 0.625,
+    "subtle_miss_fpr1": 0.375
+   },
+   "kronos/price/0.01": {
+    "ap": 0.01648128953875663,
+    "auroc": 0.92495026041671,
+    "recall_fpr1": 0.765625,
+    "recall_fpr01": 0.25,
+    "subtle_recall_fpr1": 0.53125,
+    "subtle_miss_fpr1": 0.46875
+   },
+   "kronos/all/0.01": {
+    "ap": 0.012892091545636518,
+    "auroc": 0.9298239583333747,
+    "recall_fpr1": 0.8125,
+    "recall_fpr01": 0.125,
+    "subtle_recall_fpr1": 0.625,
+    "subtle_miss_fpr1": 0.375
+   },
+   "kronos/price/0.03": {
+    "ap": 0.053369106434627604,
+    "auroc": 0.9249518229167097,
+    "recall_fpr1": 0.765625,
+    "recall_fpr01": 0.5,
+    "subtle_recall_fpr1": 0.53125,
+    "subtle_miss_fpr1": 0.46875
+   },
+   "kronos/all/0.03": {
+    "ap": 0.013727945899499489,
+    "auroc": 0.9320734375000398,
+    "recall_fpr1": 0.8125,
+    "recall_fpr01": 0.125,
+    "subtle_recall_fpr1": 0.625,
+    "subtle_miss_fpr1": 0.375
+   },
+   "kronos/price/0.1": {
+    "ap": 0.09401762517126619,
+    "auroc": 0.9248330729167098,
+    "recall_fpr1": 0.78125,
+    "recall_fpr01": 0.5625,
+    "subtle_recall_fpr1": 0.5625,
+    "subtle_miss_fpr1": 0.4375
+   },
+   "kronos/all/0.1": {
+    "ap": 0.013900057310832506,
+    "auroc": 0.9345328125000381,
+    "recall_fpr1": 0.8125,
+    "recall_fpr01": 0.125,
+    "subtle_recall_fpr1": 0.625,
+    "subtle_miss_fpr1": 0.375
+   },
+   "kronos/price/0.3": {
+    "ap": 0.11035047548042821,
+    "auroc": 0.9245309895833767,
+    "recall_fpr1": 0.796875,
+    "recall_fpr01": 0.59375,
+    "subtle_recall_fpr1": 0.59375,
+    "subtle_miss_fpr1": 0.40625
+   },
+   "kronos/all/0.3": {
+    "ap": 0.014018803124231597,
+    "auroc": 0.9386791666667019,
+    "recall_fpr1": 0.796875,
+    "recall_fpr01": 0.15625,
+    "subtle_recall_fpr1": 0.625,
+    "subtle_miss_fpr1": 0.375
+   },
+   "persistence/price/0": {
+    "ap": 0.006188072262759299,
+    "auroc": 0.927644791666689,
+    "recall_fpr1": 0.71875,
+    "recall_fpr01": 0.015625,
+    "subtle_recall_fpr1": 0.46875,
+    "subtle_miss_fpr1": 0.53125
+   },
+   "persistence/all/0": {
+    "ap": 0.006692602205672504,
+    "auroc": 0.9235539062500252,
+    "recall_fpr1": 0.796875,
+    "recall_fpr01": 0.015625,
+    "subtle_recall_fpr1": 0.625,
+    "subtle_miss_fpr1": 0.375
+   },
+   "persistence/price/0.001": {
+    "ap": 0.0072396026303172475,
+    "auroc": 0.9269593750000228,
+    "recall_fpr1": 0.71875,
+    "recall_fpr01": 0.015625,
+    "subtle_recall_fpr1": 0.46875,
+    "subtle_miss_fpr1": 0.53125
+   },
+   "persistence/all/0.001": {
+    "ap": 0.008267888715725064,
+    "auroc": 0.9230575520833589,
+    "recall_fpr1": 0.8125,
+    "recall_fpr01": 0.046875,
+    "subtle_recall_fpr1": 0.625,
+    "subtle_miss_fpr1": 0.375
+   },
+   "persistence/price/0.003": {
+    "ap": 0.008880494820398845,
+    "auroc": 0.9275755208333557,
+    "recall_fpr1": 0.734375,
+    "recall_fpr01": 0.0625,
+    "subtle_recall_fpr1": 0.46875,
+    "subtle_miss_fpr1": 0.53125
+   },
+   "persistence/all/0.003": {
+    "ap": 0.010383408311828055,
+    "auroc": 0.9233684895833588,
+    "recall_fpr1": 0.8125,
+    "recall_fpr01": 0.09375,
+    "subtle_recall_fpr1": 0.625,
+    "subtle_miss_fpr1": 0.375
+   },
+   "persistence/price/0.01": {
+    "ap": 0.015936372485499988,
+    "auroc": 0.9286880208333551,
+    "recall_fpr1": 0.75,
+    "recall_fpr01": 0.25,
+    "subtle_recall_fpr1": 0.5,
+    "subtle_miss_fpr1": 0.5
+   },
+   "persistence/all/0.01": {
+    "ap": 0.012703926517439838,
+    "auroc": 0.9235888020833588,
+    "recall_fpr1": 0.8125,
+    "recall_fpr01": 0.125,
+    "subtle_recall_fpr1": 0.625,
+    "subtle_miss_fpr1": 0.375
+   },
+   "persistence/price/0.03": {
+    "ap": 0.053044886346939484,
+    "auroc": 0.9295031250000213,
+    "recall_fpr1": 0.765625,
+    "recall_fpr01": 0.5,
+    "subtle_recall_fpr1": 0.53125,
+    "subtle_miss_fpr1": 0.46875
+   },
+   "persistence/all/0.03": {
+    "ap": 0.013527085997692714,
+    "auroc": 0.9233976562500255,
+    "recall_fpr1": 0.8125,
+    "recall_fpr01": 0.125,
+    "subtle_recall_fpr1": 0.625,
+    "subtle_miss_fpr1": 0.375
+   },
+   "persistence/price/0.1": {
+    "ap": 0.09349032114937447,
+    "auroc": 0.9293312500000213,
+    "recall_fpr1": 0.78125,
+    "recall_fpr01": 0.546875,
+    "subtle_recall_fpr1": 0.5625,
+    "subtle_miss_fpr1": 0.4375
+   },
+   "persistence/all/0.1": {
+    "ap": 0.013658526387114896,
+    "auroc": 0.922279947916693,
+    "recall_fpr1": 0.8125,
+    "recall_fpr01": 0.125,
+    "subtle_recall_fpr1": 0.625,
+    "subtle_miss_fpr1": 0.375
+   },
+   "persistence/price/0.3": {
+    "ap": 0.11601253827723149,
+    "auroc": 0.9289296875000216,
+    "recall_fpr1": 0.78125,
+    "recall_fpr01": 0.578125,
+    "subtle_recall_fpr1": 0.5625,
+    "subtle_miss_fpr1": 0.4375
+   },
+   "persistence/all/0.3": {
+    "ap": 0.013752518261005892,
+    "auroc": 0.9218174479166933,
+    "recall_fpr1": 0.796875,
+    "recall_fpr01": 0.15625,
+    "subtle_recall_fpr1": 0.625,
+    "subtle_miss_fpr1": 0.375
+   }
+  }
+ },
+ "selection": {
+  "kronos/price": {
+   "selected": "kronos/price/0.3",
+   "floor": 0.3,
+   "test": {
+    "ap": 0.11035047548042821,
+    "auroc": 0.9245309895833767,
+    "recall_fpr1": 0.796875,
+    "recall_fpr01": 0.59375,
+    "subtle_recall_fpr1": 0.59375,
+    "subtle_miss_fpr1": 0.40625
+   },
+   "test_no_floor": {
+    "ap": 0.00653321912452078,
+    "auroc": 0.9321080729167056,
+    "recall_fpr1": 0.75,
+    "recall_fpr01": 0.015625,
+    "subtle_recall_fpr1": 0.5,
+    "subtle_miss_fpr1": 0.5
+   },
+   "test_ap_gain_ci95": [
+    0.04678343223979697,
+    0.123216024227744,
+    0.3876153179990502
+   ]
+  },
+  "kronos/all": {
+   "selected": "kronos/all/0.3",
+   "floor": 0.3,
+   "test": {
+    "ap": 0.014018803124231597,
+    "auroc": 0.9386791666667019,
+    "recall_fpr1": 0.796875,
+    "recall_fpr01": 0.15625,
+    "subtle_recall_fpr1": 0.625,
+    "subtle_miss_fpr1": 0.375
+   },
+   "test_no_floor": {
+    "ap": 0.006785679552513615,
+    "auroc": 0.9311093750000408,
+    "recall_fpr1": 0.8125,
+    "recall_fpr01": 0.015625,
+    "subtle_recall_fpr1": 0.625,
+    "subtle_miss_fpr1": 0.375
+   },
+   "test_ap_gain_ci95": [
+    0.004319177727164824,
+    0.007482497133830643,
+    0.012431645822474894
+   ]
+  },
+  "persistence/price": {
+   "selected": "persistence/price/0.3",
+   "floor": 0.3,
+   "test": {
+    "ap": 0.11601253827723149,
+    "auroc": 0.9289296875000216,
+    "recall_fpr1": 0.78125,
+    "recall_fpr01": 0.578125,
+    "subtle_recall_fpr1": 0.5625,
+    "subtle_miss_fpr1": 0.4375
+   },
+   "test_no_floor": {
+    "ap": 0.006188072262759299,
+    "auroc": 0.927644791666689,
+    "recall_fpr1": 0.71875,
+    "recall_fpr01": 0.015625,
+    "subtle_recall_fpr1": 0.46875,
+    "subtle_miss_fpr1": 0.53125
+   },
+   "test_ap_gain_ci95": [
+    0.0503306811375255,
+    0.12974200797577637,
+    0.41946290801016295
+   ]
+  },
+  "persistence/all": {
+   "selected": "persistence/all/0.3",
+   "floor": 0.3,
+   "test": {
+    "ap": 0.013752518261005892,
+    "auroc": 0.9218174479166933,
+    "recall_fpr1": 0.796875,
+    "recall_fpr01": 0.15625,
+    "subtle_recall_fpr1": 0.625,
+    "subtle_miss_fpr1": 0.375
+   },
+   "test_no_floor": {
+    "ap": 0.006692602205672504,
+    "auroc": 0.9235539062500252,
+    "recall_fpr1": 0.796875,
+    "recall_fpr01": 0.015625,
+    "subtle_recall_fpr1": 0.625,
+    "subtle_miss_fpr1": 0.375
+   },
+   "test_ap_gain_ci95": [
+    0.004260392262967546,
+    0.007301589653638141,
+    0.012250174583602964
+   ]
+  },
+  "kronos_minus_persistence/price": {
+   "test_ap_gain_ci95": [
+    -0.09447229872735476,
+    -0.0022406493271274544,
+    0.02314693695047872
+   ]
+  },
+  "kronos_minus_persistence/all": {
+   "test_ap_gain_ci95": [
+    0.00010073616490952455,
+    0.00026217096965270095,
+    0.0005144697627290182
+   ]
+  }
+ }
+}

@@ -1,3 +1,5 @@
+> **Knob 实验（2026-11-24）：** 把 LLM 知识边界论文的 Knob 方法迁移到 Kronos-mini，检验它能否通过调节预测平滑度改进拉盘检测。结论：旋钮不紧凑、对平滑度控制很弱、对检测无显著影响；限制检测的是残差归一化的尺度下限。见 [中文报告 v1](docs/knob_smoothness_report_CN_v1.md) · [English report v1](docs/knob_smoothness_report_EN_v1.md)。
+
 > **无监督实验已完成：9 组数据、10 个任务、3 种方法、3 个种子，共 90 次真实运行。** [中文结果报告](docs/unsupervised_benchmark_results_CN.md) · [逐次指标与混淆矩阵](results/unsupervised_v1/metrics.csv) · [实验协议](docs/unsupervised_benchmark_protocol_CN.md)。训练和固定 POT 校准不使用异常标签，完整留出测试不抽样。新增的 Kronos-mini 特征自编码适配器为单 token 重构研究，不是原版 OHLC 预测检测器；本轮未发现稳定的预训练优势，支付欺诈和洗钱任务效果较弱。
 
 > **监督金融异常数据共 9 组：** 8 组数据随仓库存储；IEEE-CIS 官方数据已下载到本地私有目录，其规则限制公开再分发。
